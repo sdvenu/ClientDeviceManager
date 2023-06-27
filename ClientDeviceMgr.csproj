@@ -1,0 +1,899 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FE480A9D-F5FA-4493-9802-720611BFAD62}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>ClientDeviceMgr</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ClientDeviceMgr</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>disabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode>true</IISExpressUseClassicPipelineMode>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Extensions.Design" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddWS.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="AD_AuditLog.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="AD_BatchOperations.aspx" />
+    <Content Include="AD_ChangePWD.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="AD_HostInfoMgmt.aspx" />
+    <Content Include="AD_SearchTA.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="AD_WebLink.aspx" />
+    <Content Include="BGRConfig.aspx" />
+    <Content Include="CheckAuditLog.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="ClientDeviceMgr.js" />
+    <Content Include="ClientDeviceMgrJQuery.js" />
+    <Content Include="ComPortCtrl.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="ConfigPFKey.aspx" />
+    <Content Include="ConfigPtrAEALiteDrv.aspx" />
+    <Content Include="ConfigPtrFileDrv.aspx" />
+    <Content Include="ConfigPtrPrintDrv.aspx" />
+    <Content Include="ConfigPtrSysPtrDrv.aspx" />
+    <Content Include="ConfigSysPtrDrv.aspx" />
+    <Content Include="ConfigurePtr.aspx" />
+    <Content Include="ConfigureRoute.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="css\ClientDeviceMgr.css" />
+    <Content Include="DeleteRoute.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="DelWS.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="DisableWS.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="DisplayBGR.aspx" />
+    <Content Include="DisplayEmul.aspx" />
+    <Content Include="DisplayHsspRoute.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="DisplayOFEPRoute.aspx" />
+    <Content Include="DisplayPFKey.aspx" />
+    <Content Include="DisplayPtr.aspx" />
+    <Content Include="DisplayPtrAEALiteDrv.aspx" />
+    <Content Include="DisplayPtrFileDrv.aspx" />
+    <Content Include="DisplayRoute.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="DisplaySysPtrDrv.aspx" />
+    <Content Include="Emul.aspx" />
+    <Content Include="Global.asax">
+      <SubType>Component</SubType>
+    </Content>
+    <Content Include="Headers\Header.ascx">
+      <SubType>UserControl</SubType>
+      <CustomToolNamespace>Headers</CustomToolNamespace>
+    </Content>
+    <Content Include="Headers\SupportOptions.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="HsspRoute.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="images\cancel.png" />
+    <Content Include="images\delete.png" />
+    <Content Include="images\insert.png" />
+    <Content Include="images\item.png" />
+    <Content Include="images\line.gif" />
+    <Content Include="images\edit.png" />
+    <Content Include="images\previous.gif" />
+    <Content Include="images\printer.png" />
+    <Content Include="images\search.png" />
+    <Content Include="images\space.png" />
+    <Content Include="images\terminal.png" />
+    <Content Include="images\update.png" />
+    <Content Include="images\vendorlogo.png" />
+    <Content Include="jquery.js" />
+    <Content Include="Login.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="LogOff.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="NewRoute.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="OFEPRoute.aspx" />
+    <Content Include="OrgConfigPFKey.aspx" />
+    <Content Include="PageUnderConstruction.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="RenameWS.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="SP_AddUser.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="SP_BatchOperations.aspx" />
+    <Content Include="SP_ChangePWD.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="SP_DelUser.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="SP_HostInfoMgmt.aspx" />
+    <Content Include="SP_ListAllTAs.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="SP_ResetUserPWD.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="SP_SearchAuditLog.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="SP_SearchTA.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="SP_Welcome.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="UserWelcome.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="UserWSSelect.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="USR_ChangePWD.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Welcome.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="WSSelect.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Compile Include="AddWS.aspx.cs">
+      <DependentUpon>AddWS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddWS.aspx.designer.cs">
+      <DependentUpon>AddWS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AD_AuditLog.aspx.cs">
+      <DependentUpon>AD_AuditLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AD_AuditLog.aspx.designer.cs">
+      <DependentUpon>AD_AuditLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AD_BatchOperations.aspx.cs">
+      <DependentUpon>AD_BatchOperations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AD_BatchOperations.aspx.designer.cs">
+      <DependentUpon>AD_BatchOperations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AD_ChangePWD.aspx.cs">
+      <DependentUpon>AD_ChangePWD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AD_ChangePWD.aspx.designer.cs">
+      <DependentUpon>AD_ChangePWD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AD_HostInfoMgmt.aspx.cs">
+      <DependentUpon>AD_HostInfoMgmt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AD_HostInfoMgmt.aspx.designer.cs">
+      <DependentUpon>AD_HostInfoMgmt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AD_SearchTA.aspx.cs">
+      <DependentUpon>AD_SearchTA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AD_SearchTA.aspx.designer.cs">
+      <DependentUpon>AD_SearchTA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AD_WebLink.aspx.cs">
+      <DependentUpon>AD_WebLink.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AD_WebLink.aspx.designer.cs">
+      <DependentUpon>AD_WebLink.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BGRConfig.aspx.cs">
+      <DependentUpon>BGRConfig.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BGRConfig.aspx.designer.cs">
+      <DependentUpon>BGRConfig.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CheckAuditLog.aspx.cs">
+      <DependentUpon>CheckAuditLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CheckAuditLog.aspx.designer.cs">
+      <DependentUpon>CheckAuditLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ComPortCtrl.ascx.cs">
+      <DependentUpon>ComPortCtrl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ComPortCtrl.ascx.designer.cs">
+      <DependentUpon>ComPortCtrl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigPFKey.aspx.cs">
+      <DependentUpon>ConfigPFKey.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfigPFKey.aspx.designer.cs">
+      <DependentUpon>ConfigPFKey.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigPtrAEALiteDrv.aspx.cs">
+      <DependentUpon>ConfigPtrAEALiteDrv.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfigPtrAEALiteDrv.aspx.designer.cs">
+      <DependentUpon>ConfigPtrAEALiteDrv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigPtrFileDrv.aspx.cs">
+      <DependentUpon>ConfigPtrFileDrv.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfigPtrFileDrv.aspx.designer.cs">
+      <DependentUpon>ConfigPtrFileDrv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigPtrPrintDrv.aspx.cs">
+      <DependentUpon>ConfigPtrPrintDrv.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfigPtrPrintDrv.aspx.designer.cs">
+      <DependentUpon>ConfigPtrPrintDrv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigPtrSysPtrDrv.aspx.cs">
+      <DependentUpon>ConfigPtrSysPtrDrv.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfigPtrSysPtrDrv.aspx.designer.cs">
+      <DependentUpon>ConfigPtrSysPtrDrv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigSysPtrDrv.aspx.cs">
+      <DependentUpon>ConfigSysPtrDrv.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfigSysPtrDrv.aspx.designer.cs">
+      <DependentUpon>ConfigSysPtrDrv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigurePtr.aspx.cs">
+      <DependentUpon>ConfigurePtr.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfigurePtr.aspx.designer.cs">
+      <DependentUpon>ConfigurePtr.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigureRoute.aspx.cs">
+      <DependentUpon>ConfigureRoute.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfigureRoute.aspx.designer.cs">
+      <DependentUpon>ConfigureRoute.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteRoute.aspx.cs">
+      <DependentUpon>DeleteRoute.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteRoute.aspx.designer.cs">
+      <DependentUpon>DeleteRoute.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DelWS.aspx.cs">
+      <DependentUpon>DelWS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DelWS.aspx.designer.cs">
+      <DependentUpon>DelWS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DisableWS.aspx.cs">
+      <DependentUpon>DisableWS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisableWS.aspx.designer.cs">
+      <DependentUpon>DisableWS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayBGR.aspx.cs">
+      <DependentUpon>DisplayBGR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisplayBGR.aspx.designer.cs">
+      <DependentUpon>DisplayBGR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayEmul.aspx.cs">
+      <DependentUpon>DisplayEmul.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisplayEmul.aspx.designer.cs">
+      <DependentUpon>DisplayEmul.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayHsspRoute.aspx.cs">
+      <DependentUpon>DisplayHsspRoute.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisplayHsspRoute.aspx.designer.cs">
+      <DependentUpon>DisplayHsspRoute.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayOFEPRoute.aspx.cs">
+      <DependentUpon>DisplayOFEPRoute.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisplayOFEPRoute.aspx.designer.cs">
+      <DependentUpon>DisplayOFEPRoute.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayPFKey.aspx.cs">
+      <DependentUpon>DisplayPFKey.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisplayPFKey.aspx.designer.cs">
+      <DependentUpon>DisplayPFKey.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayPtr.aspx.cs">
+      <DependentUpon>DisplayPtr.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisplayPtr.aspx.designer.cs">
+      <DependentUpon>DisplayPtr.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayPtrAEALiteDrv.aspx.cs">
+      <DependentUpon>DisplayPtrAEALiteDrv.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisplayPtrAEALiteDrv.aspx.designer.cs">
+      <DependentUpon>DisplayPtrAEALiteDrv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayPtrFileDrv.aspx.cs">
+      <DependentUpon>DisplayPtrFileDrv.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisplayPtrFileDrv.aspx.designer.cs">
+      <DependentUpon>DisplayPtrFileDrv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayRoute.aspx.cs">
+      <DependentUpon>DisplayRoute.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisplayRoute.aspx.designer.cs">
+      <DependentUpon>DisplayRoute.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DisplaySysPtrDrv.aspx.cs">
+      <DependentUpon>DisplaySysPtrDrv.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisplaySysPtrDrv.aspx.designer.cs">
+      <DependentUpon>DisplaySysPtrDrv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Emul.aspx.cs">
+      <DependentUpon>Emul.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Emul.aspx.designer.cs">
+      <DependentUpon>Emul.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Headers\Header.ascx.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Headers\Header.ascx.designer.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Headers\SupportOptions.ascx.cs">
+      <DependentUpon>SupportOptions.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Headers\SupportOptions.ascx.designer.cs">
+      <DependentUpon>SupportOptions.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="HostInfo.cs" />
+    <Compile Include="HostInfoData.cs" />
+    <Compile Include="HsspRoute.aspx.cs">
+      <DependentUpon>HsspRoute.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HsspRoute.aspx.designer.cs">
+      <DependentUpon>HsspRoute.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogOff.aspx.cs">
+      <DependentUpon>LogOff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogOff.aspx.designer.cs">
+      <DependentUpon>LogOff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewRoute.aspx.cs">
+      <DependentUpon>NewRoute.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewRoute.aspx.designer.cs">
+      <DependentUpon>NewRoute.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OFEPRoute.aspx.cs">
+      <DependentUpon>OFEPRoute.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OFEPRoute.aspx.designer.cs">
+      <DependentUpon>OFEPRoute.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrgConfigPFKey.aspx.cs">
+      <DependentUpon>OrgConfigPFKey.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrgConfigPFKey.aspx.designer.cs">
+      <DependentUpon>OrgConfigPFKey.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageUnderConstruction.aspx.cs">
+      <DependentUpon>PageUnderConstruction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageUnderConstruction.aspx.designer.cs">
+      <DependentUpon>PageUnderConstruction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RenameWS.aspx.cs">
+      <DependentUpon>RenameWS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RenameWS.aspx.designer.cs">
+      <DependentUpon>RenameWS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SP_AddUser.aspx.cs">
+      <DependentUpon>SP_AddUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SP_AddUser.aspx.designer.cs">
+      <DependentUpon>SP_AddUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SP_BatchOperations.aspx.cs">
+      <DependentUpon>SP_BatchOperations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SP_BatchOperations.aspx.designer.cs">
+      <DependentUpon>SP_BatchOperations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SP_ChangePWD.aspx.cs">
+      <DependentUpon>SP_ChangePWD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SP_ChangePWD.aspx.designer.cs">
+      <DependentUpon>SP_ChangePWD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SP_DelUser.aspx.cs">
+      <DependentUpon>SP_DelUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SP_DelUser.aspx.designer.cs">
+      <DependentUpon>SP_DelUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SP_HostInfoMgmt.aspx.cs">
+      <DependentUpon>SP_HostInfoMgmt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SP_HostInfoMgmt.aspx.designer.cs">
+      <DependentUpon>SP_HostInfoMgmt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SP_ListAllTAs.aspx.cs">
+      <DependentUpon>SP_ListAllTAs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SP_ListAllTAs.aspx.designer.cs">
+      <DependentUpon>SP_ListAllTAs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SP_ResetUserPWD.aspx.cs">
+      <DependentUpon>SP_ResetUserPWD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SP_ResetUserPWD.aspx.designer.cs">
+      <DependentUpon>SP_ResetUserPWD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SP_SearchAuditLog.aspx.cs">
+      <DependentUpon>SP_SearchAuditLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SP_SearchAuditLog.aspx.designer.cs">
+      <DependentUpon>SP_SearchAuditLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SP_SearchTA.aspx.cs">
+      <DependentUpon>SP_SearchTA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SP_SearchTA.aspx.designer.cs">
+      <DependentUpon>SP_SearchTA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SP_Welcome.aspx.cs">
+      <DependentUpon>SP_Welcome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SP_Welcome.aspx.designer.cs">
+      <DependentUpon>SP_Welcome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserWelcome.aspx.cs">
+      <DependentUpon>UserWelcome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserWelcome.aspx.designer.cs">
+      <DependentUpon>UserWelcome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserWSSelect.aspx.cs">
+      <DependentUpon>UserWSSelect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserWSSelect.aspx.designer.cs">
+      <DependentUpon>UserWSSelect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="USR_ChangePWD.aspx.cs">
+      <DependentUpon>USR_ChangePWD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="USR_ChangePWD.aspx.designer.cs">
+      <DependentUpon>USR_ChangePWD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\ModuleBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\PageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Welcome.aspx.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Welcome.aspx.designer.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WSSelect.aspx.cs">
+      <DependentUpon>WSSelect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WSSelect.aspx.designer.cs">
+      <DependentUpon>WSSelect.aspx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddWS.aspx.resx">
+      <DependentUpon>AddWS.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AD_AuditLog.aspx.resx">
+      <DependentUpon>AD_AuditLog.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AD_ChangePWD.aspx.resx">
+      <DependentUpon>AD_ChangePWD.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AD_SearchTA.aspx.resx">
+      <DependentUpon>AD_SearchTA.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AD_WebLink.aspx.resx">
+      <DependentUpon>AD_WebLink.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGRConfig.aspx.resx">
+      <DependentUpon>BGRConfig.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckAuditLog.aspx.resx">
+      <DependentUpon>CheckAuditLog.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComPortCtrl.ascx.resx">
+      <DependentUpon>ComPortCtrl.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigPFKey.aspx.resx">
+      <DependentUpon>ConfigPFKey.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigPtrAEALiteDrv.aspx.resx">
+      <DependentUpon>ConfigPtrAEALiteDrv.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigPtrFileDrv.aspx.resx">
+      <DependentUpon>ConfigPtrFileDrv.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigPtrPrintDrv.aspx.resx">
+      <DependentUpon>ConfigPtrPrintDrv.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigPtrSysPtrDrv.aspx.resx">
+      <DependentUpon>ConfigPtrSysPtrDrv.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigSysPtrDrv.aspx.resx">
+      <DependentUpon>ConfigSysPtrDrv.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigurePtr.aspx.resx">
+      <DependentUpon>ConfigurePtr.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigureRoute.aspx.resx">
+      <DependentUpon>ConfigureRoute.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteRoute.aspx.resx">
+      <DependentUpon>DeleteRoute.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DelWS.aspx.resx">
+      <DependentUpon>DelWS.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisableWS.aspx.resx">
+      <DependentUpon>DisableWS.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisplayBGR.aspx.resx">
+      <DependentUpon>DisplayBGR.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisplayEmul.aspx.resx">
+      <DependentUpon>DisplayEmul.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisplayHsspRoute.aspx.resx">
+      <DependentUpon>DisplayHsspRoute.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisplayOFEPRoute.aspx.resx">
+      <DependentUpon>DisplayOFEPRoute.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisplayPFKey.aspx.resx">
+      <DependentUpon>DisplayPFKey.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisplayPtr.aspx.resx">
+      <DependentUpon>DisplayPtr.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisplayPtrAEALiteDrv.aspx.resx">
+      <DependentUpon>DisplayPtrAEALiteDrv.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisplayPtrFileDrv.aspx.resx">
+      <DependentUpon>DisplayPtrFileDrv.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisplayRoute.aspx.resx">
+      <DependentUpon>DisplayRoute.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisplaySysPtrDrv.aspx.resx">
+      <DependentUpon>DisplaySysPtrDrv.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Emul.aspx.resx">
+      <DependentUpon>Emul.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Global.asax.resx">
+      <DependentUpon>Global.asax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Headers\Header.ascx.resx">
+      <DependentUpon>Header.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Headers\SupportOptions.ascx.resx">
+      <DependentUpon>SupportOptions.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HsspRoute.aspx.resx">
+      <DependentUpon>HsspRoute.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.aspx.resx">
+      <DependentUpon>Login.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogOff.aspx.resx">
+      <DependentUpon>LogOff.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewRoute.aspx.resx">
+      <DependentUpon>NewRoute.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OFEPRoute.aspx.resx">
+      <DependentUpon>OFEPRoute.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrgConfigPFKey.aspx.resx">
+      <DependentUpon>OrgConfigPFKey.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PageUnderConstruction.aspx.resx">
+      <DependentUpon>PageUnderConstruction.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RenameWS.aspx.resx">
+      <DependentUpon>RenameWS.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SP_AddUser.aspx.resx">
+      <DependentUpon>SP_AddUser.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SP_ChangePWD.aspx.resx">
+      <DependentUpon>SP_ChangePWD.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SP_DelUser.aspx.resx">
+      <DependentUpon>SP_DelUser.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SP_ListAllTAs.aspx.resx">
+      <DependentUpon>SP_ListAllTAs.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SP_ResetUserPWD.aspx.resx">
+      <DependentUpon>SP_ResetUserPWD.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SP_SearchAuditLog.aspx.resx">
+      <DependentUpon>SP_SearchAuditLog.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SP_SearchTA.aspx.resx">
+      <DependentUpon>SP_SearchTA.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SP_Welcome.aspx.resx">
+      <DependentUpon>SP_Welcome.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserWelcome.aspx.resx">
+      <DependentUpon>UserWelcome.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserWSSelect.aspx.resx">
+      <DependentUpon>UserWSSelect.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USR_ChangePWD.aspx.resx">
+      <DependentUpon>USR_ChangePWD.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome.aspx.resx">
+      <DependentUpon>Welcome.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WSSelect.aspx.resx">
+      <DependentUpon>WSSelect.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Common\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Common\Common.csproj">
+      <Project>{e605cac7-dcb4-4432-b2b1-9bfd88721106}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="Data Access v2\Code\CS\Microsoft.ApplicationBlocks.Data\Microsoft.ApplicationBlocks.Data.csproj">
+      <Project>{30933672-466e-4f67-a111-abf267539146}</Project>
+      <Name>Microsoft.ApplicationBlocks.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="SystemFramework\SystemFramework.csproj">
+      <Project>{ff0ead48-ab41-4ef2-b664-0ca42bfd8c78}</Project>
+      <Name>SystemFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClientDeviceMgr.pubxml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>C:\Windows\Microsoft.NET\Framework64\v2.0.50727\aspnet_compiler.exe -v / -p "$(ProjectDir)\"
+</PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>6990</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:6990/ClientDeviceMgr</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

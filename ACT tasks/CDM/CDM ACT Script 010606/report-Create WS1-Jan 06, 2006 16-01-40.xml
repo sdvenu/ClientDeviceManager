@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Report>
+<Report name="report-Create WS1-Jan 06, 2006 16-01-40.xml" testName="Create WS1" Locale="1033">
+	<General >
+		<Properties >
+			<TestProperties >
+				<ControllerReportTimeout type="long" value="5"/>
+				<Timeout type="long" value="120"/>
+				<Duration type="long" value="300"/>
+				<Warmup type="long" value="0"/>
+				<UseIterations type="bool" value="True"/>
+				<Iterations type="long" value="10"/>
+				<UseRateControl type="bool" value="False"/>
+				<TargetRPS type="long" value="40"/>
+				<PerfCollectionInterval type="long" value="10"/>
+				<TestType type="long" value="1"/>
+				<GenerateUsers type="bool" value="True"/>
+				<UsersToGenerate type="long" value="5000"/>
+				<CollectPerfCounters type="bool" value="False"/>
+				<CollectRuntimeHistory type="bool" value="true"/>
+				<Locale type="long" value="1033"/>
+				<CollectPerPageData type="bool" value="true"/>
+			</TestProperties>
+			<DynamicTest >
+				<Language type="string" value="VBScript"/>
+				<NumberOfThreads type="long" value="1"/>
+				<FollowRedirects type="bool" value="False"/>
+				<RedirectDepth type="long" value="15"/>
+			</DynamicTest>
+			<Network >
+				<Enable type="bool" value="False"/>
+				<NATRange type="long" value="0"/>
+				<Distribution.9.6K type="long" value="1"/>
+				<Distribution.14.4K type="long" value="4"/>
+				<Distribution.28.8K type="long" value="5"/>
+				<Distribution.56K type="long" value="20"/>
+				<Distribution.128K type="long" value="15"/>
+				<Distribution.512K type="long" value="15"/>
+				<Distribution.T1 type="long" value="15"/>
+				<Distribution.Unlimited type="long" value="15"/>
+				<PropagationDelay type="long" value="200"/>
+				<NATStartAddr type="string" value="10.10.1.1"/>
+				<NATStopAddr type="string" value="10.10.1.255"/>
+				<ClientPortStart type="long" value="1000"/>
+				<ClientPortEnd type="long" value="5000"/>
+			</Network>
+			<StaticTest >
+				<DefaultServer type="string" value="localhost"/>
+				<DefaultMethod type="string" value="GET"/>
+				<DefaultHTTPVer type="string" value="HTTP/1.1"/>
+				<DefaultPort type="long" value="80"/>
+				<SessionCount type="long" value="5"/>
+				<UseRandomDelay type="bool" value="True"/>
+				<MinDelay type="long" value="10"/>
+				<MaxDelay type="long" value="1500"/>
+				<FollowRedirects type="bool" value="True"/>
+				<RedirectDepth type="long" value="15"/>
+			</StaticTest>
+		</Properties>
+		<Summary >
+			<Value name="Requests" type="SUM" value="150"/>
+			<Value name="TTFB" type="SUM" value="1548"/>
+			<Value name="TTLB" type="SUM" value="1627"/>
+			<Value name="Iterations" type="SUM" value="10"/>
+			<Value name="ConnectSuccesses" type="SUM" value="150"/>
+			<Value name="BytesSent" type="SUM" value="58202"/>
+			<Value name="BytesReceived" type="SUM" value="503720"/>
+			<Value name="SSLFailures" type="SUM" value="0"/>
+			<Value name="SSLSuccesses" type="SUM" value="0"/>
+			<Value name="ConnectFailures" type="SUM" value="0"/>
+			<Value name="SendErrors" type="SUM" value="0"/>
+			<Value name="ReceiveErrors" type="SUM" value="0"/>
+			<Value name="SocketTimeout" type="SUM" value="0"/>
+			<Value name="DNSFailures" type="SUM" value="0"/>
+			<Value name="TotalHttpErrors" type="SUM" value="20"/>
+			<Value name="TotalUsers" type="SUM" value="10"/>
+			<Value name="TTFB" type="STDDEV" value="9.33975017510283"/>
+			<Value name="TTLB" type="STDDEV" value="9.36001187083768"/>
+			<Value name="RPS" type="AVG" value="75"/>
+			<Value name="Iterations" type="AVG" value="10"/>
+			<Value name="BytesSent" type="AVG" value="29101"/>
+			<Value name="BytesReceived" type="AVG" value="251860"/>
+			<Value name="Bandwidth" type="SUM" value="561922"/>
+			<Value name="Bandwidth" type="AVG" value="280961"/>
+			<Value name="TestDuration" type="SUM" value="2"/>
+			<Value name="StartTime" type="SUM" value="1136584897"/>
+			<Value name="NumberofClients" type="SUM" value="1"/>
+		</Summary>
+		<RuntimeHistory >
+			<RuntimeHistoryClients name="EDSTRNLABNS01">
+				<Value name="ClientId" type="long" value="0"/>
+			</RuntimeHistoryClients>
+			<RuntimeHistorySample SamplingTime="0">
+				<RuntimeHistorySampleClient >
+					<Value name="ClientId" type="long" value="0"/>
+					<Value name="Codes1xx" type="long" value="0"/>
+					<Value name="Codes2xx" type="long" value="0"/>
+					<Value name="Codes3xx" type="long" value="0"/>
+					<Value name="Codes4xx" type="long" value="0"/>
+					<Value name="Codes5xx" type="long" value="0"/>
+					<Value name="CodesXxx" type="long" value="0"/>
+					<Value name="Codes401" type="long" value="0"/>
+					<Value name="Codes404" type="long" value="0"/>
+					<Value name="ConnectErrors" type="long" value="0"/>
+					<Value name="SendErrors" type="long" value="0"/>
+					<Value name="ReceiveErrors" type="long" value="0"/>
+					<Value name="TimeoutErrors" type="long" value="0"/>
+					<Value name="ConnectSuccess" type="long" value="0"/>
+					<Value name="DnsErrors" type="long" value="0"/>
+					<Value name="Rps" type="long" value="0"/>
+					<Value name="TimeRemaining" type="long" value="0"/>
+					<Value name="IterationsRemaining" type="long" value="10"/>
+					<Value name="PerfCntCPU" type="long" value="0"/>
+					<Value name="PerfCntMem" type="long" value="0"/>
+					<Value name="AvgResponseTime" type="long" value="0"/>
+					<Value name="BytesSent" type="qword" value="0"/>
+					<Value name="BytesReceived" type="qword" value="0"/>
+					<Value name="TotalRequests" type="qword" value="0"/>
+					<Value name="SuccesfulRequests" type="qword" value="0"/>
+				</RuntimeHistorySampleClient>
+			</RuntimeHistorySample>
+			<RuntimeHistorySample SamplingTime="1000">
+				<RuntimeHistorySampleClient >
+					<Value name="ClientId" type="long" value="0"/>
+					<Value name="Codes1xx" type="long" value="0"/>
+					<Value name="Codes2xx" type="long" value="47"/>
+					<Value name="Codes3xx" type="long" value="8"/>
+					<Value name="Codes4xx" type="long" value="4"/>
+					<Value name="Codes5xx" type="long" value="4"/>
+					<Value name="CodesXxx" type="long" value="0"/>
+					<Value name="Codes401" type="long" value="0"/>
+					<Value name="Codes404" type="long" value="0"/>
+					<Value name="ConnectErrors" type="long" value="0"/>
+					<Value name="SendErrors" type="long" value="0"/>
+					<Value name="ReceiveErrors" type="long" value="0"/>
+					<Value name="TimeoutErrors" type="long" value="0"/>
+					<Value name="ConnectSuccess" type="long" value="63"/>
+					<Value name="DnsErrors" type="long" value="0"/>
+					<Value name="Rps" type="long" value="63"/>
+					<Value name="TimeRemaining" type="long" value="0"/>
+					<Value name="IterationsRemaining" type="long" value="6"/>
+					<Value name="PerfCntCPU" type="long" value="0"/>
+					<Value name="PerfCntMem" type="long" value="0"/>
+					<Value name="AvgResponseTime" type="long" value="0"/>
+					<Value name="BytesSent" type="qword" value="24154"/>
+					<Value name="BytesReceived" type="qword" value="213213"/>
+					<Value name="TotalRequests" type="qword" value="63"/>
+					<Value name="SuccesfulRequests" type="qword" value="0"/>
+				</RuntimeHistorySampleClient>
+			</RuntimeHistorySample>
+			<RuntimeHistorySample SamplingTime="2219">
+				<RuntimeHistorySampleClient >
+					<Value name="ClientId" type="long" value="0"/>
+					<Value name="Codes1xx" type="long" value="0"/>
+					<Value name="Codes2xx" type="long" value="110"/>
+					<Value name="Codes3xx" type="long" value="20"/>
+					<Value name="Codes4xx" type="long" value="10"/>
+					<Value name="Codes5xx" type="long" value="10"/>
+					<Value name="CodesXxx" type="long" value="0"/>
+					<Value name="Codes401" type="long" value="0"/>
+					<Value name="Codes404" type="long" value="0"/>
+					<Value name="ConnectErrors" type="long" value="0"/>
+					<Value name="SendErrors" type="long" value="0"/>
+					<Value name="ReceiveErrors" type="long" value="0"/>
+					<Value name="TimeoutErrors" type="long" value="0"/>
+					<Value name="ConnectSuccess" type="long" value="150"/>
+					<Value name="DnsErrors" type="long" value="0"/>
+					<Value name="Rps" type="long" value="75"/>
+					<Value name="TimeRemaining" type="long" value="0"/>
+					<Value name="IterationsRemaining" type="long" value="0"/>
+					<Value name="PerfCntCPU" type="long" value="0"/>
+					<Value name="PerfCntMem" type="long" value="0"/>
+					<Value name="AvgResponseTime" type="long" value="0"/>
+					<Value name="BytesSent" type="qword" value="58202"/>
+					<Value name="BytesReceived" type="qword" value="503720"/>
+					<Value name="TotalRequests" type="qword" value="150"/>
+					<Value name="SuccesfulRequests" type="qword" value="0"/>
+				</RuntimeHistorySampleClient>
+			</RuntimeHistorySample>
+		</RuntimeHistory>
+		<RuntimeNotes text="The test is no longer running.
+Connecting to the test clients...
+Waiting for the test clients to start...
+Robots.txt will not be checked.
+Test client &apos;EDSTRNLABNS01&apos; is started.
+The test is now running.
+The test was stopped after iteration: EDSTRNLABNS01
+Collecting results from the test clients. This may take up to 5 minutes...
+Storing test results...
+"/>
+	</General>
+	<ClientGroup >
+		<Client name="EDSTRNLABNS01">
+			<Value name="Requests" type="SUM" value="150"/>
+			<Value name="TTFB" type="SUM" value="1548"/>
+			<Value name="TTLB" type="SUM" value="1627"/>
+			<Value name="Iterations" type="SUM" value="10"/>
+			<Value name="ConnectSuccesses" type="SUM" value="150"/>
+			<Value name="BytesSent" type="SUM" value="58202"/>
+			<Value name="BytesReceived" type="SUM" value="503720"/>
+			<Value name="SSLFailures" type="SUM" value="0"/>
+			<Value name="SSLSuccesses" type="SUM" value="0"/>
+			<Value name="ConnectFailures" type="SUM" value="0"/>
+			<Value name="SendErrors" type="SUM" value="0"/>
+			<Value name="ReceiveErrors" type="SUM" value="0"/>
+			<Value name="SocketTimeout" type="SUM" value="0"/>
+			<Value name="DNSFailures" type="SUM" value="0"/>
+			<Value name="TotalHttpErrors" type="SUM" value="20"/>
+			<Value name="TotalUsers" type="SUM" value="10"/>
+			<Value name="TTFB" type="STDDEV" value="9.33975017510283"/>
+			<Value name="TTLB" type="STDDEV" value="9.36001187083768"/>
+		</Client>
+	</ClientGroup>
+	<RequestGroup name="DEFAULT GROUP NAME">
+		<Summary >
+			<Value name="Requests" type="SUM" value="150"/>
+			<Value name="Distribution" type="SUM" value="0"/>
+			<Value name="DistPercent" type="SUM" value="0"/>
+			<Value name="RequestPercents" type="SUM" value="0"/>
+			<Value name="ConnectSuccesses" type="SUM" value="150"/>
+			<Value name="BytesSent" type="SUM" value="58202"/>
+			<Value name="BytesReceived" type="SUM" value="503720"/>
+			<Value name="ConnectFailures" type="SUM" value="0"/>
+			<Value name="SocketTimeout" type="SUM" value="0"/>
+			<Value name="SendErrors" type="SUM" value="0"/>
+			<Value name="ReceiveErrors" type="SUM" value="0"/>
+			<Value name="DNSFailures" type="SUM" value="0"/>
+			<Value name="Bandwidth" type="SUM" value="561922"/>
+			<Value name="AuthFailures" type="SUM" value="0"/>
+			<Value name="AuthSuccesses" type="SUM" value="0"/>
+			<Value name="RPS" type="AVG" value="75"/>
+			<Value name="TTFB" type="AVG" value="10.32"/>
+			<Value name="TTFB" type="MIN" value="0"/>
+			<Value name="TTFB" type="MAX" value="32"/>
+			<Value name="TTLB" type="AVG" value="10.8466666666667"/>
+			<Value name="TTLB" type="SUM" value="1627"/>
+			<Value name="TTLB" type="MIN" value="0"/>
+			<Value name="TTLB" type="MAX" value="32"/>
+			<Value name="SSLFailures" type="SUM" value="0"/>
+			<Value name="SSLSuccesses" type="SUM" value="0"/>
+			<Value name="TTLB" type="STDDEV" value="9.36001187083768"/>
+			<Value name="TTFB" type="STDDEV" value="9.33975017510283"/>
+		</Summary>
+		<ResponseCodes >
+			<Code number="500" value="10"/>
+			<Code number="400" value="10"/>
+			<Code number="302" value="20"/>
+			<Code number="200" value="110"/>
+		</ResponseCodes>
+		<Request name="/ClientDeviceMgr/AddWS.aspx" server="profileserver" method="GET">
+			<Value name="Requests" type="SUM" value="10"/>
+			<Value name="ConnectFailures" type="SUM" value="0"/>
+			<Value name="AuthSuccesses" type="SUM" value="0"/>
+			<Value name="AuthFailures" type="SUM" value="0"/>
+			<Value name="SSLSuccesses" type="SUM" value="0"/>
+			<Value name="SSLFailures" type="SUM" value="0"/>
+			<Value name="Bandwidth" type="SUM" value="6120"/>
+			<Value name="DNSFailures" type="SUM" value="0"/>
+			<Value name="SocketTimeout" type="SUM" value="0"/>
+			<Value name="SendErrors" type="SUM" value="0"/>
+			<Value name="ReceiveErrors" type="SUM" value="0"/>
+			<Value name="ConnectSuccesses" type="SUM" value="10"/>
+			<Value name="BytesSent" type="SUM" value="4410"/>
+			<Value name="BytesReceived" type="SUM" value="1710"/>
+			<Value name="RPS" type="AVG" value="5"/>
+			<Value name="TTFB" type="AVG" value="1.5"/>
+			<Value name="TTLB" type="AVG" value="1.5"/>
+			<Value name="Size" type="AVG" value="42"/>
+			<Value name="TTFB" type="MIN" value="0"/>
+			<Value name="TTFB" type="N25" value="6.94444444444444E-02"/>
+			<Value name="TTFB" type="N50" value="0.416666666666667"/>
+			<Value name="TTFB" type="N75" value="2.5"/>
+			<Value name="TTFB" type="MAX" value="15"/>
+			<Value name="TTLB" type="MIN" value="0"/>
+			<Value name="TTLB" type="N25" value="6.94444444444444E-02"/>
+			<Value name="TTLB" type="N50" value="0.416666666666667"/>
+			<Value name="TTLB" type="N75" value="2.5"/>
+			<Value name="TTLB" type="MAX" value="15"/>
+			<Value name="Size" type="MIN" value="42"/>
+			<Value name="Size" type="N25" value="42"/>
+			<Value name="Size" type="N50" value="42"/>
+			<Value name="Size" type="N75" value="42"/>
+			<Value name="Size" type="MAX" value="42"/>
+			<Value name="TTLB" type="STDDEV" value="4.5"/>
+			<Value name="TTFB" type="STDDEV" value="4.5"/>
+			<Value name="Size" type="STDDEV" value="0"/>
+			<ResponseCodes >
+				<Code number="400" value="10"/>
+			</ResponseCodes>
+		</Request>
+		<Request name="/ClientDeviceMgr/AddWS.aspx" server="profileserver" method="POST">
+			<Value name="Requests" type="SUM" value="10"/>
+			<Value name="ConnectFailures" type="SUM" value="0"/>
+			<Value name="AuthSuccesses" type="SUM" value="0"/>
+			<Value name="AuthFailures" type="SUM" value="0"/>
+			<Value name="SSLSuccesses" type="SUM" value="0"/>
+			<Value name="SSLFailures" type="SUM" value="0"/>
+			<Value name="Bandwidth" type="SUM" value="41132"/>
+			<Value name="DNSFailures" type="SUM" value="0"/>
+			<Value name="SocketTimeout" type="SUM" value="0"/>
+			<Value name="SendErrors" type="SUM" value="0"/>
+			<Value name="ReceiveErrors" type="SUM" value="0"/>
+			<Value name="ConnectSuccesses" type="SUM" value="10"/>
+			<Value name="BytesSent" type="SUM" value="8142"/>
+			<Value name="BytesReceived" type="SUM" value="32990"/>
+			<Value name="RPS" type="AVG" value="5"/>
+			<Value name="TTFB" type="AVG" value="12.5"/>
+			<Value name="TTLB" type="AVG" value="12.5"/>
+			<Value name="Size" type="AVG" value="3041"/>
+			<Value name="TTFB" type="MIN" value="0"/>
+			<Value name="TTFB" type="N25" value="9.75"/>
+			<Value name="TTFB" type="N50" value="13.8333333333333"/>
+			<Value name="TTFB" type="N75" value="15.6388888888889"/>
+			<Value name="TTFB" type="MAX" value="16"/>
+			<Value name="TTLB" type="MIN" value="0"/>
+			<Value name="TTLB" type="N25" value="9.75"/>
+			<Value name="TTLB" type="N50" value="13.8333333333333"/>
+			<Value name="TTLB" type="N75" value="15.6388888888889"/>
+			<Value name="TTLB" type="MAX" value="16"/>
+			<Value name="Size" type="MIN" value="3041"/>
+			<Value name="Size" type="N25" value="3041"/>
+			<Value name="Size" type="N50" value="3041"/>
+			<Value name="Size" type="N75" value="3041"/>
+			<Value name="Size" type="MAX" value="3041"/>
+			<Value name="TTLB" type="STDDEV" value="6.26498204307083"/>
+			<Value name="TTFB" type="STDDEV" value="6.26498204307083"/>
+			<Value name="Size" type="STDDEV" value="0"/>
+			<ResponseCodes >
+				<Code number="500" value="10"/>
+			</ResponseCodes>
+		</Request>
+		<Request name="/ClientDeviceMgr/ClientDeviceMgr.js" server="profileserver" method="GET">
+			<Value name="Requests" type="SUM" value="10"/>
+			<Value name="ConnectFailures" type="SUM" value="0"/>
+			<Value name="AuthSuccesses" type="SUM" value="0"/>
+			<Value name="AuthFailures" type="SUM" value="0"/>
+			<Value name="SSLSuccesses" type="SUM" value="0"/>
+			<Value name="SSLFailures" type="SUM" value="0"/>
+			<Value name="Bandwidth" type="SUM" value="17690"/>
+			<Value name="DNSFailures" type="SUM" value="0"/>
+			<Value name="SocketTimeout" type="SUM" value="0"/>
+			<Value name="SendErrors" type="SUM" value="0"/>
+			<Value name="ReceiveErrors" type="SUM" value="0"/>
+			<Value name="ConnectSuccesses" type="SUM" value="10"/>
+			<Value name="BytesSent" type="SUM" value="3210"/>
+			<Value name="BytesReceived" type="SUM" value="14480"/>
+			<Value name="RPS" type="AVG" value="5"/>
+			<Value name="TTFB" type="AVG" value="7.9"/>
+			<Value name="TTLB" type="AVG" value="7.9"/>
+			<Value name="Size" type="AVG" value="1166"/>
+			<Value name="TTFB" type="MIN" value="0"/>
+			<Value name="TTFB" type="N25" value="0"/>
+			<Value name="TTFB" type="N50" value="10.1333333333333"/>
+			<Value name="TTFB" type="N75" value="15.0222222222222"/>
+			<Value name="TTFB" type="MAX" value="16"/>
+			<Value name="TTLB" type="MIN" value="0"/>
+			<Value name="TTLB" type="N25" value="0"/>
+			<Value name="TTLB" type="N50" value="10.1333333333333"/>
+			<Value name="TTLB" type="N75" value="15.0222222222222"/>
+			<Value name="TTLB" type="MAX" value="16"/>
+			<Value name="Size" type="MIN" value="1166"/>
+			<Value name="Size" type="N25" value="1166"/>
+			<Value name="Size" type="N50" value="1166"/>
+			<Value name="Size" type="N75" value="1166"/>
+			<Value name="Size" type="MAX" value="1166"/>
+			<Value name="TTLB" type="STDDEV" value="7.90506166958867"/>
+			<Value name="TTFB" type="STDDEV" value="7.90506166958867"/>
+			<Value name="Size" type="STDDEV" value="0"/>
+			<ResponseCodes >
+				<Code number="200" value="10"/>
+			</ResponseCodes>
+		</Request>
+		<Request name="/ClientDeviceMgr/LogOff.aspx" server="profileserver" method="GET">
+			<Value name="Requests" type="SUM" value="10"/>
+			<Value name="ConnectFailures" type="SUM" value="0"/>
+			<Value name="AuthSuccesses" type="SUM" value="0"/>
+			<Value name="AuthFailures" type="SUM" value="0"/>
+			<Value name="SSLSuccesses" type="SUM" value="0"/>
+			<Value name="SSLFailures" type="SUM" value="0"/>
+			<Value name="Bandwidth" type="SUM" value="7910"/>
+			<Value name="DNSFailures" type="SUM" value="0"/>
+			<Value name="SocketTimeout" type="SUM" value="0"/>
+			<Value name="SendErrors" type="SUM" value="0"/>
+			<Value name="ReceiveErrors" type="SUM" value="0"/>
+			<Value name="ConnectSuccesses" type="SUM" value="10"/>
+			<Value name="BytesSent" type="SUM" value="3670"/>
+			<Value name="BytesReceived" type="SUM" value="4240"/>
+			<Value name="RPS" type="AVG" value="5"/>
+			<Value name="TTFB" type="AVG" value="6.2"/>
+			<Value name="TTLB" type="AVG" value="7.8"/>
+			<Value name="Size" type="AVG" value="144"/>
+			<Value name="TTFB" type="MIN" value="0"/>
+			<Value name="TTFB" type="N25" value="0.148148148148148"/>
+			<Value name="TTFB" type="N50" value="1.28395061728395"/>
+			<Value name="TTFB" type="N75" value="5.58024691358025"/>
+			<Value name="TTFB" type="MAX" value="31"/>
+			<Value name="TTLB" type="MIN" value="0"/>
+			<Value name="TTLB" type="N25" value="0.148148148148148"/>
+			<Value name="TTLB" type="N50" value="1.28395061728395"/>
+			<Value name="TTLB" type="N75" value="5.58024691358025"/>
+			<Value name="TTLB" type="MAX" value="31"/>
+			<Value name="Size" type="MIN" value="144"/>
+			<Value name="Size" type="N25" value="144"/>
+			<Value name="Size" type="N50" value="144"/>
+			<Value name="Size" type="N75" value="144"/>
+			<Value name="Size" type="MAX" value="144"/>
+			<Value name="TTLB" type="STDDEV" value="10.4383906805599"/>
+			<Value name="TTFB" type="STDDEV" value="10.283968105746"/>
+			<Value name="Size" type="STDDEV" value="0"/>
+			<ResponseCodes >
+				<Code number="302" value="10"/>
+			</ResponseCodes>
+		</Request>
+		<Request name="/ClientDeviceMgr/Login.aspx" server="profileserver" method="GET">
+			<Value name="Requests" type="SUM" value="10"/>
+			<Value name="ConnectFailures" type="SUM" value="0"/>
+			<Value name="AuthSuccesses" type="SUM" value="0"/>
+			<Value name="AuthFailures" type="SUM" value="0"/>
+			<Value name="SSLSuccesses" type="SUM" value="0"/>
+			<Value name="SSLFailures" type="SUM" value="0"/>
+			<Value name="Bandwidth" type="SUM" value="44920"/>
+			<Value name="DNSFailures" type="SUM" value="0"/>
+			<Value name="SocketTimeout" type="SUM" value="0"/>
+			<Value name="SendErrors" type="SUM" value="0"/>
+			<Value name="ReceiveErrors" type="SUM" value="0"/>
+			<Value name="ConnectSuccesses" type="SUM" value="10"/>
+			<Value name="BytesSent" type="SUM" value="3660"/>
+			<Value name="BytesReceived" type="SUM" value="41260"/>
+			<Value name="RPS" type="AVG" value="5"/>
+			<Value name="TTFB" type="AVG" value="12.5"/>
+			<Value name="TTLB" type="AVG" value="15.6"/>
+			<Value name="Size" type="AVG" value="3887"/>
+			<Value name="TTFB" type="MIN" value="0"/>
+			<Value name="TTFB" type="N25" value="5.02777777777778"/>
+			<Value name="TTFB" type="N50" value="15.2152777777778"/>
+			<Value name="TTFB" type="N75" value="15.5219907407407"/>
+			<Value name="TTFB" type="MAX" value="16"/>
+			<Value name="TTLB" type="MIN" value="0"/>
+			<Value name="TTLB" type="N25" value="15.1666666666667"/>
+			<Value name="TTLB" type="N50" value="16"/>
+			<Value name="TTLB" type="N75" value="18.8333333333333"/>
+			<Value name="TTLB" type="MAX" value="31"/>
+			<Value name="Size" type="MIN" value="3887"/>
+			<Value name="Size" type="N25" value="3887"/>
+			<Value name="Size" type="N50" value="3887"/>
+			<Value name="Size" type="N75" value="3887"/>
+			<Value name="Size" type="MAX" value="3887"/>
+			<Value name="TTLB" type="STDDEV" value="6.94550214167414"/>
+			<Value name="TTFB" type="STDDEV" value="6.26498204307083"/>
+			<Value name="Size" type="STDDEV" value="0"/>
+			<ResponseCodes >
+				<Code number="200" value="10"/>
+			</ResponseCodes>
+		</Request>
+		<Request name="/ClientDeviceMgr/css/ClientDeviceMgr.css" server="profileserver" method="GET">
+			<Value name="Requests" type="SUM" value="10"/>
+			<Value name="ConnectFailures" type="SUM" value="0"/>
+			<Value name="AuthSuccesses" type="SUM" value="0"/>
+			<Value name="AuthFailures" type="SUM" value="0"/>
+			<Value name="SSLSuccesses" type="SUM" value="0"/>
+			<Value name="SSLFailures" type="SUM" value="0"/>
+			<Value name="Bandwidth" type="SUM" value="37350"/>
+			<Value name="DNSFailures" type="SUM" value="0"/>
+			<Value name="SocketTimeout" type="SUM" value="0"/>
+			<Value name="SendErrors" type="SUM" value="0"/>
+			<Value name="ReceiveErrors" type="SUM" value="0"/>
+			<Value name="ConnectSuccesses" type="SUM" value="10"/>
+			<Value name="BytesSent" type="SUM" value="3260"/>
+			<Value name="BytesReceived" type="SUM" value="34090"/>
+			<Value name="RPS" type="AVG" value="5"/>
+			<Value name="TTFB" type="AVG" value="9.4"/>
+			<Value name="TTLB" type="AVG" value="9.4"/>
+			<Value name="Size" type="AVG" value="3142"/>
+			<Value name="TTFB" type="MIN" value="0"/>
+			<Value name="TTFB" type="N25" value="6.98333333333333"/>
+			<Value name="TTFB" type="N50" value="12.03"/>
+			<Value name="TTFB" type="N75" value="15.3383333333333"/>
+			<Value name="TTFB" type="MAX" value="16"/>
+			<Value name="TTLB" type="MIN" value="0"/>
+			<Value name="TTLB" type="N25" value="6.98333333333333"/>
+			<Value name="TTLB" type="N50" value="12.03"/>
+			<Value name="TTLB" type="N75" value="15.3383333333333"/>
+			<Value name="TTLB" type="MAX" value="16"/>
+			<Value name="Size" type="MIN" value="3142"/>
+			<Value name="Size" type="N25" value="3142"/>
+			<Value name="Size" type="N50" value="3142"/>
+			<Value name="Size" type="N75" value="3142"/>
+			<Value name="Size" type="MAX" value="3142"/>
+			<Value name="TTLB" type="STDDEV" value="7.68374908491942"/>
+			<Value name="TTFB" type="STDDEV" value="7.68374908491942"/>
+			<Value name="Size" type="STDDEV" value="0"/>
+			<ResponseCodes >
+				<Code number="200" value="10"/>
+			</ResponseCodes>
+		</Request>
+		<Request name="/ClientDeviceMgr/images/edslogo.gif" server="profileserver" method="GET">
+			<Value name="Requests" type="SUM" value="10"/>
+			<Value name="ConnectFailures" type="SUM" value="0"/>
+			<Value name="AuthSuccesses" type="SUM" value="0"/>
+			<Value name="AuthFailures" type="SUM" value="0"/>
+			<Value name="SSLSuccesses" type="SUM" value="0"/>
+			<Value name="SSLFailures" type="SUM" value="0"/>
+			<Value name="Bandwidth" type="SUM" value="22120"/>
+			<Value name="DNSFailures" type="SUM" value="0"/>
+			<Value name="SocketTimeout" type="SUM" value="0"/>
+			<Value name="SendErrors" type="SUM" value="0"/>
+			<Value name="ReceiveErrors" type="SUM" value="0"/>
+			<Value name="ConnectSuccesses" type="SUM" value="10"/>
+			<Value name="BytesSent" type="SUM" value="3210"/>
+			<Value name="BytesReceived" type="SUM" value="18910"/>
+			<Value name="RPS" type="AVG" value="5"/>
+			<Value name="TTFB" type="AVG" value="4.7"/>
+			<Value name="TTLB" type="AVG" value="4.7"/>
+			<Value name="Size" type="AVG" value="1624"/>
+			<Value name="TTFB" type="MIN" value="0"/>
+			<Value name="TTFB" type="N25" value="0.148148148148148"/>
+			<Value name="TTFB" type="N50" value="1.28395061728395"/>
+			<Value name="TTFB" type="N75" value="5.58024691358025"/>
+			<Value name="TTFB" type="MAX" value="16"/>
+			<Value name="TTLB" type="MIN" value="0"/>
+			<Value name="TTLB" type="N25" value="0.148148148148148"/>
+			<Value name="TTLB" type="N50" value="1.28395061728395"/>
+			<Value name="TTLB" type="N75" value="5.58024691358025"/>
+			<Value name="TTLB" type="MAX" value="16"/>
+			<Value name="Size" type="MIN" value="1624"/>
+			<Value name="Size" type="N25" value="1624"/>
+			<Value name="Size" type="N50" value="1624"/>
+			<Value name="Size" type="N75" value="1624"/>
+			<Value name="Size" type="MAX" value="1624"/>
+			<Value name="TTLB" type="STDDEV" value="7.18401002226472"/>
+			<Value name="TTFB" type="STDDEV" value="7.18401002226472"/>
+			<Value name="Size" type="STDDEV" value="0"/>
+			<ResponseCodes >
+				<Code number="200" value="10"/>
+			</ResponseCodes>
+		</Request>
+		<Request name="/ClientDeviceMgr/images/line.gif" server="profileserver" method="GET">
+			<Value name="Requests" type="SUM" value="10"/>
+			<Value name="ConnectFailures" type="SUM" value="0"/>
+			<Value name="AuthSuccesses" type="SUM" value="0"/>
+			<Value name="AuthFailures" type="SUM" value="0"/>
+			<Value name="SSLSuccesses" type="SUM" value="0"/>
+			<Value name="SSLFailures" type="SUM" value="0"/>
+			<Value name="Bandwidth" type="SUM" value="11590"/>
+			<Value name="DNSFailures" type="SUM" value="0"/>
+			<Value name="SocketTimeout" type="SUM" value="0"/>
+			<Value name="SendErrors" type="SUM" value="0"/>
+			<Value name="ReceiveErrors" type="SUM" value="0"/>
+			<Value name="ConnectSuccesses" type="SUM" value="10"/>
+			<Value name="BytesSent" type="SUM" value="3200"/>
+			<Value name="BytesReceived" type="SUM" value="8390"/>
+			<Value name="RPS" type="AVG" value="5"/>
+			<Value name="TTFB" type="AVG" value="4.8"/>
+			<Value name="TTLB" type="AVG" value="4.8"/>
+			<Value name="Size" type="AVG" value="572"/>
+			<Value name="TTFB" type="MIN" value="0"/>
+			<Value name="TTFB" type="N25" value="1.33333333333333"/>
+			<Value name="TTFB" type="N50" value="10.4"/>
+			<Value name="TTFB" type="N75" value="15.0666666666667"/>
+			<Value name="TTFB" type="MAX" value="16"/>
+			<Value name="TTLB" type="MIN" value="0"/>
+			<Value name="TTLB" type="N25" value="1.33333333333333"/>
+			<Value name="TTLB" type="N50" value="10.4"/>
+			<Value name="TTLB" type="N75" value="15.0666666666667"/>
+			<Value name="TTLB" type="MAX" value="16"/>
+			<Value name="Size" type="MIN" value="572"/>
+			<Value name="Size" type="N25" value="572"/>
+			<Value name="Size" type="N50" value="572"/>
+			<Value name="Size" type="N75" value="572"/>
+			<Value name="Size" type="MAX" value="572"/>
+			<Value name="TTLB" type="STDDEV" value="7.33212111192934"/>
+			<Value name="TTFB" type="STDDEV" value="7.33212111192934"/>
+			<Value name="Size" type="STDDEV" value="0"/>
+			<ResponseCodes >
+				<Code number="200" value="10"/>
+			</ResponseCodes>
+		</Request>
+		<Request name="/aspnet_client/system_web/1_1_4322/WebUIValidation.js" server="profileserver" method="GET">
+			<Value name="Requests" type="SUM" value="10"/>
+			<Value name="ConnectFailures" type="SUM" value="0"/>
+			<Value name="AuthSuccesses" type="SUM" value="0"/>
+			<Value name="AuthFailures" type="SUM" value="0"/>
+			<Value name="SSLSuccesses" type="SUM" value="0"/>
+			<Value name="SSLFailures" type="SUM" value="0"/>
+			<Value name="Bandwidth" type="SUM" value="150960"/>
+			<Value name="DNSFailures" type="SUM" value="0"/>
+			<Value name="SocketTimeout" type="SUM" value="0"/>
+			<Value name="SendErrors" type="SUM" value="0"/>
+			<Value name="ReceiveErrors" type="SUM" value="0"/>
+			<Value name="ConnectSuccesses" type="SUM" value="10"/>
+			<Value name="BytesSent" type="SUM" value="3290"/>
+			<Value name="BytesReceived" type="SUM" value="147670"/>
+			<Value name="RPS" type="AVG" value="5"/>
+			<Value name="TTFB" type="AVG" value="28.1"/>
+			<Value name="TTLB" type="AVG" value="28.1"/>
+			<Value name="Size" type="AVG" value="14482"/>
+			<Value name="TTFB" type="MIN" value="16"/>
+			<Value name="TTFB" type="N25" value="31"/>
+			<Value name="TTFB" type="N50" value="31.0277777777778"/>
+			<Value name="TTFB" type="N75" value="31.1666666666667"/>
+			<Value name="TTFB" type="MAX" value="32"/>
+			<Value name="TTLB" type="MIN" value="16"/>
+			<Value name="TTLB" type="N25" value="31"/>
+			<Value name="TTLB" type="N50" value="31.0277777777778"/>
+			<Value name="TTLB" type="N75" value="31.1666666666667"/>
+			<Value name="TTLB" type="MAX" value="32"/>
+			<Value name="Size" type="MIN" value="14482"/>
+			<Value name="Size" type="N25" value="14482"/>
+			<Value name="Size" type="N50" value="14482"/>
+			<Value name="Size" type="N75" value="14482"/>
+			<Value name="Size" type="MAX" value="14482"/>
+			<Value name="TTLB" type="STDDEV" value="6.05722708836312"/>
+			<Value name="TTFB" type="STDDEV" value="6.05722708836312"/>
+			<Value name="Size" type="STDDEV" value="0"/>
+			<ResponseCodes >
+				<Code number="200" value="10"/>
+			</ResponseCodes>
+		</Request>
+		<Request name="/clientdevicemgr/Login.aspx" server="profileserver" method="GET">
+			<Value name="Requests" type="SUM" value="10"/>
+			<Value name="ConnectFailures" type="SUM" value="0"/>
+			<Value name="AuthSuccesses" type="SUM" value="0"/>
+			<Value name="AuthFailures" type="SUM" value="0"/>
+			<Value name="SSLSuccesses" type="SUM" value="0"/>
+			<Value name="SSLFailures" type="SUM" value="0"/>
+			<Value name="Bandwidth" type="SUM" value="44460"/>
+			<Value name="DNSFailures" type="SUM" value="0"/>
+			<Value name="SocketTimeout" type="SUM" value="0"/>
+			<Value name="SendErrors" type="SUM" value="0"/>
+			<Value name="ReceiveErrors" type="SUM" value="0"/>
+			<Value name="ConnectSuccesses" type="SUM" value="10"/>
+			<Value name="BytesSent" type="SUM" value="2560"/>
+			<Value name="BytesReceived" type="SUM" value="41900"/>
+			<Value name="RPS" type="AVG" value="5"/>
+			<Value name="TTFB" type="AVG" value="14"/>
+			<Value name="TTLB" type="AVG" value="14"/>
+			<Value name="Size" type="AVG" value="3887"/>
+			<Value name="TTFB" type="MIN" value="0"/>
+			<Value name="TTFB" type="N25" value="12.5"/>
+			<Value name="TTFB" type="N50" value="14.85"/>
+			<Value name="TTFB" type="N75" value="15.8083333333333"/>
+			<Value name="TTFB" type="MAX" value="16"/>
+			<Value name="TTLB" type="MIN" value="0"/>
+			<Value name="TTLB" type="N25" value="12.5"/>
+			<Value name="TTLB" type="N50" value="14.85"/>
+			<Value name="TTLB" type="N75" value="15.8083333333333"/>
+			<Value name="TTLB" type="MAX" value="16"/>
+			<Value name="Size" type="MIN" value="3887"/>
+			<Value name="Size" type="N25" value="3887"/>
+			<Value name="Size" type="N50" value="3887"/>
+			<Value name="Size" type="N75" value="3887"/>
+			<Value name="Size" type="MAX" value="3887"/>
+			<Value name="TTLB" type="STDDEV" value="4.69041575982343"/>
+			<Value name="TTFB" type="STDDEV" value="4.69041575982343"/>
+			<Value name="Size" type="STDDEV" value="0"/>
+			<ResponseCodes >
+				<Code number="200" value="10"/>
+			</ResponseCodes>
+		</Request>
+		<Request name="/clientdevicemgr/Login.aspx" server="profileserver" method="POST">
+			<Value name="Requests" type="SUM" value="10"/>
+			<Value name="ConnectFailures" type="SUM" value="0"/>
+			<Value name="AuthSuccesses" type="SUM" value="0"/>
+			<Value name="AuthFailures" type="SUM" value="0"/>
+			<Value name="SSLSuccesses" type="SUM" value="0"/>
+			<Value name="SSLFailures" type="SUM" value="0"/>
+			<Value name="Bandwidth" type="SUM" value="10860"/>
+			<Value name="DNSFailures" type="SUM" value="0"/>
+			<Value name="SocketTimeout" type="SUM" value="0"/>
+			<Value name="SendErrors" type="SUM" value="0"/>
+			<Value name="ReceiveErrors" type="SUM" value="0"/>
+			<Value name="ConnectSuccesses" type="SUM" value="10"/>
+			<Value name="BytesSent" type="SUM" value="6580"/>
+			<Value name="BytesReceived" type="SUM" value="4280"/>
+			<Value name="RPS" type="AVG" value="5"/>
+			<Value name="TTFB" type="AVG" value="12.6"/>
+			<Value name="TTLB" type="AVG" value="15.8"/>
+			<Value name="Size" type="AVG" value="146"/>
+			<Value name="TTFB" type="MIN" value="0"/>
+			<Value name="TTFB" type="N25" value="12"/>
+			<Value name="TTFB" type="N50" value="16"/>
+			<Value name="TTFB" type="N75" value="18.5"/>
+			<Value name="TTFB" type="MAX" value="31"/>
+			<Value name="TTLB" type="MIN" value="0"/>
+			<Value name="TTLB" type="N25" value="16"/>
+			<Value name="TTLB" type="N50" value="16.4166666666667"/>
+			<Value name="TTLB" type="N75" value="18.5"/>
+			<Value name="TTLB" type="MAX" value="31"/>
+			<Value name="Size" type="MIN" value="146"/>
+			<Value name="Size" type="N25" value="146"/>
+			<Value name="Size" type="N50" value="146"/>
+			<Value name="Size" type="N75" value="146"/>
+			<Value name="Size" type="MAX" value="146"/>
+			<Value name="TTLB" type="STDDEV" value="6.93974062915899"/>
+			<Value name="TTFB" type="STDDEV" value="9.37229961108799"/>
+			<Value name="Size" type="STDDEV" value="0"/>
+			<ResponseCodes >
+				<Code number="302" value="10"/>
+			</ResponseCodes>
+		</Request>
+		<Request name="/clientdevicemgr/Welcome.aspx" server="profileserver" method="GET">
+			<Value name="Requests" type="SUM" value="10"/>
+			<Value name="ConnectFailures" type="SUM" value="0"/>
+			<Value name="AuthSuccesses" type="SUM" value="0"/>
+			<Value name="AuthFailures" type="SUM" value="0"/>
+			<Value name="SSLSuccesses" type="SUM" value="0"/>
+			<Value name="SSLFailures" type="SUM" value="0"/>
+			<Value name="Bandwidth" type="SUM" value="63300"/>
+			<Value name="DNSFailures" type="SUM" value="0"/>
+			<Value name="SocketTimeout" type="SUM" value="0"/>
+			<Value name="SendErrors" type="SUM" value="0"/>
+			<Value name="ReceiveErrors" type="SUM" value="0"/>
+			<Value name="ConnectSuccesses" type="SUM" value="10"/>
+			<Value name="BytesSent" type="SUM" value="3760"/>
+			<Value name="BytesReceived" type="SUM" value="59540"/>
+			<Value name="RPS" type="AVG" value="5"/>
+			<Value name="TTFB" type="AVG" value="14"/>
+			<Value name="TTLB" type="AVG" value="14"/>
+			<Value name="Size" type="AVG" value="5715"/>
+			<Value name="TTFB" type="MIN" value="0"/>
+			<Value name="TTFB" type="N25" value="11.8666666666667"/>
+			<Value name="TTFB" type="N50" value="14.84"/>
+			<Value name="TTFB" type="N75" value="15.8066666666667"/>
+			<Value name="TTFB" type="MAX" value="16"/>
+			<Value name="TTLB" type="MIN" value="0"/>
+			<Value name="TTLB" type="N25" value="11.8666666666667"/>
+			<Value name="TTLB" type="N50" value="14.84"/>
+			<Value name="TTLB" type="N75" value="15.8066666666667"/>
+			<Value name="TTLB" type="MAX" value="16"/>
+			<Value name="Size" type="MIN" value="5715"/>
+			<Value name="Size" type="N25" value="5715"/>
+			<Value name="Size" type="N50" value="5715"/>
+			<Value name="Size" type="N75" value="5715"/>
+			<Value name="Size" type="MAX" value="5715"/>
+			<Value name="TTLB" type="STDDEV" value="4.69041575982343"/>
+			<Value name="TTFB" type="STDDEV" value="4.69041575982343"/>
+			<Value name="Size" type="STDDEV" value="0"/>
+			<ResponseCodes >
+				<Code number="200" value="10"/>
+			</ResponseCodes>
+		</Request>
+		<Request name="/clientdevicemgr/css/ClientDeviceMgr.css" server="profileserver" method="GET">
+			<Value name="Requests" type="SUM" value="10"/>
+			<Value name="ConnectFailures" type="SUM" value="0"/>
+			<Value name="AuthSuccesses" type="SUM" value="0"/>
+			<Value name="AuthFailures" type="SUM" value="0"/>
+			<Value name="SSLSuccesses" type="SUM" value="0"/>
+			<Value name="SSLFailures" type="SUM" value="0"/>
+			<Value name="Bandwidth" type="SUM" value="37250"/>
+			<Value name="DNSFailures" type="SUM" value="0"/>
+			<Value name="SocketTimeout" type="SUM" value="0"/>
+			<Value name="SendErrors" type="SUM" value="0"/>
+			<Value name="ReceiveErrors" type="SUM" value="0"/>
+			<Value name="ConnectSuccesses" type="SUM" value="10"/>
+			<Value name="BytesSent" type="SUM" value="3160"/>
+			<Value name="BytesReceived" type="SUM" value="34090"/>
+			<Value name="RPS" type="AVG" value="5"/>
+			<Value name="TTFB" type="AVG" value="9.5"/>
+			<Value name="TTLB" type="AVG" value="9.5"/>
+			<Value name="Size" type="AVG" value="3142"/>
+			<Value name="TTFB" type="MIN" value="0"/>
+			<Value name="TTFB" type="N25" value="0.851851851851852"/>
+			<Value name="TTFB" type="N50" value="7.38271604938272"/>
+			<Value name="TTFB" type="N75" value="15.5555555555556"/>
+			<Value name="TTFB" type="MAX" value="16"/>
+			<Value name="TTLB" type="MIN" value="0"/>
+			<Value name="TTLB" type="N25" value="0.851851851851852"/>
+			<Value name="TTLB" type="N50" value="7.38271604938272"/>
+			<Value name="TTLB" type="N75" value="15.5555555555556"/>
+			<Value name="TTLB" type="MAX" value="16"/>
+			<Value name="Size" type="MIN" value="3142"/>
+			<Value name="Size" type="N25" value="3142"/>
+			<Value name="Size" type="N50" value="3142"/>
+			<Value name="Size" type="N75" value="3142"/>
+			<Value name="Size" type="MAX" value="3142"/>
+			<Value name="TTLB" type="STDDEV" value="7.76208734813001"/>
+			<Value name="TTFB" type="STDDEV" value="7.76208734813001"/>
+			<Value name="Size" type="STDDEV" value="0"/>
+			<ResponseCodes >
+				<Code number="200" value="10"/>
+			</ResponseCodes>
+		</Request>
+		<Request name="/clientdevicemgr/images/edslogo.gif" server="profileserver" method="GET">
+			<Value name="Requests" type="SUM" value="10"/>
+			<Value name="ConnectFailures" type="SUM" value="0"/>
+			<Value name="AuthSuccesses" type="SUM" value="0"/>
+			<Value name="AuthFailures" type="SUM" value="0"/>
+			<Value name="SSLSuccesses" type="SUM" value="0"/>
+			<Value name="SSLFailures" type="SUM" value="0"/>
+			<Value name="Bandwidth" type="SUM" value="22020"/>
+			<Value name="DNSFailures" type="SUM" value="0"/>
+			<Value name="SocketTimeout" type="SUM" value="0"/>
+			<Value name="SendErrors" type="SUM" value="0"/>
+			<Value name="ReceiveErrors" type="SUM" value="0"/>
+			<Value name="ConnectSuccesses" type="SUM" value="10"/>
+			<Value name="BytesSent" type="SUM" value="3110"/>
+			<Value name="BytesReceived" type="SUM" value="18910"/>
+			<Value name="RPS" type="AVG" value="5"/>
+			<Value name="TTFB" type="AVG" value="4.6"/>
+			<Value name="TTLB" type="AVG" value="4.6"/>
+			<Value name="Size" type="AVG" value="1624"/>
+			<Value name="TTFB" type="MIN" value="0"/>
+			<Value name="TTFB" type="N25" value="1.25"/>
+			<Value name="TTFB" type="N50" value="9.75"/>
+			<Value name="TTFB" type="N75" value="13.625"/>
+			<Value name="TTFB" type="MAX" value="16"/>
+			<Value name="TTLB" type="MIN" value="0"/>
+			<Value name="TTLB" type="N25" value="1.25"/>
+			<Value name="TTLB" type="N50" value="9.75"/>
+			<Value name="TTLB" type="N75" value="13.625"/>
+			<Value name="TTLB" type="MAX" value="16"/>
+			<Value name="Size" type="MIN" value="1624"/>
+			<Value name="Size" type="N25" value="1624"/>
+			<Value name="Size" type="N50" value="1624"/>
+			<Value name="Size" type="N75" value="1624"/>
+			<Value name="Size" type="MAX" value="1624"/>
+			<Value name="TTLB" type="STDDEV" value="7.03135833249878"/>
+			<Value name="TTFB" type="STDDEV" value="7.03135833249878"/>
+			<Value name="Size" type="STDDEV" value="0"/>
+			<ResponseCodes >
+				<Code number="200" value="10"/>
+			</ResponseCodes>
+		</Request>
+		<Request name="/clientdevicemgr/" server="profileserver" method="GET">
+			<Value name="Requests" type="SUM" value="10"/>
+			<Value name="ConnectFailures" type="SUM" value="0"/>
+			<Value name="AuthSuccesses" type="SUM" value="0"/>
+			<Value name="AuthFailures" type="SUM" value="0"/>
+			<Value name="SSLSuccesses" type="SUM" value="0"/>
+			<Value name="SSLFailures" type="SUM" value="0"/>
+			<Value name="Bandwidth" type="SUM" value="44240"/>
+			<Value name="DNSFailures" type="SUM" value="0"/>
+			<Value name="SocketTimeout" type="SUM" value="0"/>
+			<Value name="SendErrors" type="SUM" value="0"/>
+			<Value name="ReceiveErrors" type="SUM" value="0"/>
+			<Value name="ConnectSuccesses" type="SUM" value="10"/>
+			<Value name="BytesSent" type="SUM" value="2980"/>
+			<Value name="BytesReceived" type="SUM" value="41260"/>
+			<Value name="RPS" type="AVG" value="5"/>
+			<Value name="TTFB" type="AVG" value="12.5"/>
+			<Value name="TTLB" type="AVG" value="12.5"/>
+			<Value name="Size" type="AVG" value="3887"/>
+			<Value name="TTFB" type="MIN" value="0"/>
+			<Value name="TTFB" type="N25" value="0"/>
+			<Value name="TTFB" type="N50" value="10.1333333333333"/>
+			<Value name="TTFB" type="N75" value="15.0222222222222"/>
+			<Value name="TTFB" type="MAX" value="16"/>
+			<Value name="TTLB" type="MIN" value="0"/>
+			<Value name="TTLB" type="N25" value="0"/>
+			<Value name="TTLB" type="N50" value="10.1333333333333"/>
+			<Value name="TTLB" type="N75" value="15.0222222222222"/>
+			<Value name="TTLB" type="MAX" value="16"/>
+			<Value name="Size" type="MIN" value="3887"/>
+			<Value name="Size" type="N25" value="3887"/>
+			<Value name="Size" type="N50" value="3887"/>
+			<Value name="Size" type="N75" value="3887"/>
+			<Value name="Size" type="MAX" value="3887"/>
+			<Value name="TTLB" type="STDDEV" value="6.26498204307083"/>
+			<Value name="TTFB" type="STDDEV" value="6.26498204307083"/>
+			<Value name="Size" type="STDDEV" value="0"/>
+			<ResponseCodes >
+				<Code number="200" value="10"/>
+			</ResponseCodes>
+		</Request>
+	</RequestGroup>
+	<GlobalCounters >
+	</GlobalCounters>
+	<ResponseCodes >
+		<Code number="500" value="10"/>
+		<Code number="400" value="10"/>
+		<Code number="302" value="20"/>
+		<Code number="200" value="110"/>
+	</ResponseCodes>
+</Report>

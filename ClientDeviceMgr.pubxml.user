@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Project\CDM\Publish\ClientDeviceMgr</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AddWS.aspx">
+      <publishTime>05/08/2018 11:16:25</publishTime>
+    </File>
+    <File Include="AD_AuditLog.aspx">
+      <publishTime>04/24/2018 10:35:59</publishTime>
+    </File>
+    <File Include="AD_BatchOperations.aspx">
+      <publishTime>05/08/2018 11:23:05</publishTime>
+    </File>
+    <File Include="AD_ChangePWD.aspx">
+      <publishTime>04/24/2018 10:35:59</publishTime>
+    </File>
+    <File Include="AD_HostInfoMgmt.aspx">
+      <publishTime>05/14/2018 15:46:12</publishTime>
+    </File>
+    <File Include="AD_SearchTA.aspx">
+      <publishTime>04/24/2018 10:35:06</publishTime>
+    </File>
+    <File Include="AD_WebLink.aspx">
+      <publishTime>04/24/2018 10:35:06</publishTime>
+    </File>
+    <File Include="BGRConfig.aspx">
+      <publishTime>04/24/2018 10:35:06</publishTime>
+    </File>
+    <File Include="bin/ClientDeviceMgr.dll">
+      <publishTime>06/28/2018 11:21:26</publishTime>
+    </File>
+    <File Include="bin/ClientDeviceMgr.pdb">
+      <publishTime>06/16/2017 13:43:00</publishTime>
+    </File>
+    <File Include="bin/Common.dll">
+      <publishTime>06/28/2018 11:21:23</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationBlocks.Data.dll">
+      <publishTime>06/28/2018 11:21:23</publishTime>
+    </File>
+    <File Include="bin/SystemFramework.dll">
+      <publishTime>06/28/2018 11:21:23</publishTime>
+    </File>
+    <File Include="CheckAuditLog.aspx">
+      <publishTime>04/24/2018 10:35:06</publishTime>
+    </File>
+    <File Include="ClientDeviceMgr.js">
+      <publishTime>04/09/2018 00:07:43</publishTime>
+    </File>
+    <File Include="ClientDeviceMgrJQuery.js">
+      <publishTime>04/08/2018 23:10:30</publishTime>
+    </File>
+    <File Include="ComPortCtrl.ascx">
+      <publishTime>09/29/2017 13:30:03</publishTime>
+    </File>
+    <File Include="ConfigPFKey.aspx">
+      <publishTime>04/24/2018 10:35:06</publishTime>
+    </File>
+    <File Include="ConfigPtrAEALiteDrv.aspx">
+      <publishTime>04/24/2018 10:35:06</publishTime>
+    </File>
+    <File Include="ConfigPtrFileDrv.aspx">
+      <publishTime>04/24/2018 10:35:06</publishTime>
+    </File>
+    <File Include="ConfigPtrPrintDrv.aspx">
+      <publishTime>10/03/2017 15:08:36</publishTime>
+    </File>
+    <File Include="ConfigPtrSysPtrDrv.aspx">
+      <publishTime>10/03/2017 15:08:36</publishTime>
+    </File>
+    <File Include="ConfigSysPtrDrv.aspx">
+      <publishTime>04/24/2018 10:35:07</publishTime>
+    </File>
+    <File Include="ConfigurePtr.aspx">
+      <publishTime>04/24/2018 10:35:07</publishTime>
+    </File>
+    <File Include="ConfigureRoute.aspx">
+      <publishTime>04/24/2018 10:35:07</publishTime>
+    </File>
+    <File Include="css/ClientDeviceMgr.css">
+      <publishTime>12/20/2017 13:43:48</publishTime>
+    </File>
+    <File Include="DeleteRoute.aspx">
+      <publishTime>04/24/2018 10:35:07</publishTime>
+    </File>
+    <File Include="DelWS.aspx">
+      <publishTime>04/24/2018 10:35:07</publishTime>
+    </File>
+    <File Include="DisableWS.aspx">
+      <publishTime>04/24/2018 10:35:07</publishTime>
+    </File>
+    <File Include="DisplayBGR.aspx">
+      <publishTime>04/24/2018 10:35:07</publishTime>
+    </File>
+    <File Include="DisplayEmul.aspx">
+      <publishTime>04/27/2018 16:05:05</publishTime>
+    </File>
+    <File Include="DisplayHsspRoute.aspx">
+      <publishTime>05/02/2018 11:30:44</publishTime>
+    </File>
+    <File Include="DisplayOFEPRoute.aspx">
+      <publishTime>04/24/2018 10:35:07</publishTime>
+    </File>
+    <File Include="DisplayPFKey.aspx">
+      <publishTime>04/24/2018 10:35:07</publishTime>
+    </File>
+    <File Include="DisplayPtr.aspx">
+      <publishTime>04/24/2018 10:35:07</publishTime>
+    </File>
+    <File Include="DisplayPtrAEALiteDrv.aspx">
+      <publishTime>04/24/2018 10:35:07</publishTime>
+    </File>
+    <File Include="DisplayPtrFileDrv.aspx">
+      <publishTime>04/24/2018 10:35:07</publishTime>
+    </File>
+    <File Include="DisplayRoute.aspx">
+      <publishTime>04/24/2018 10:35:07</publishTime>
+    </File>
+    <File Include="DisplaySysPtrDrv.aspx">
+      <publishTime>04/24/2018 10:35:07</publishTime>
+    </File>
+    <File Include="Emul.aspx">
+      <publishTime>04/24/2018 10:35:07</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/29/2017 13:29:54</publishTime>
+    </File>
+    <File Include="Headers/Header.ascx">
+      <publishTime>09/29/2017 13:30:03</publishTime>
+    </File>
+    <File Include="Headers/SupportOptions.ascx">
+      <publishTime>05/08/2018 10:50:21</publishTime>
+    </File>
+    <File Include="HsspRoute.aspx">
+      <publishTime>05/07/2018 11:26:34</publishTime>
+    </File>
+    <File Include="images/cancel.png">
+      <publishTime>11/29/2015 17:45:52</publishTime>
+    </File>
+    <File Include="images/delete.png">
+      <publishTime>11/16/2015 10:33:27</publishTime>
+    </File>
+    <File Include="images/edit.png">
+      <publishTime>11/16/2015 10:35:01</publishTime>
+    </File>
+    <File Include="images/insert.png">
+      <publishTime>11/16/2015 10:36:33</publishTime>
+    </File>
+    <File Include="images/item.png">
+      <publishTime>11/29/2015 20:12:05</publishTime>
+    </File>
+    <File Include="images/line.gif">
+      <publishTime>09/29/2017 13:29:55</publishTime>
+    </File>
+    <File Include="images/previous.gif">
+      <publishTime>09/29/2017 13:29:55</publishTime>
+    </File>
+    <File Include="images/printer.png">
+      <publishTime>09/29/2017 13:29:55</publishTime>
+    </File>
+    <File Include="images/search.png">
+      <publishTime>11/05/2015 16:07:48</publishTime>
+    </File>
+    <File Include="images/space.png">
+      <publishTime>12/11/2017 12:56:44</publishTime>
+    </File>
+    <File Include="images/terminal.png">
+      <publishTime>09/29/2017 13:29:55</publishTime>
+    </File>
+    <File Include="images/update.png">
+      <publishTime>11/29/2015 18:43:22</publishTime>
+    </File>
+    <File Include="images/vendorlogo.png">
+      <publishTime>09/29/2017 13:29:55</publishTime>
+    </File>
+    <File Include="jquery.js">
+      <publishTime>03/27/2018 16:15:17</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>04/24/2018 10:36:00</publishTime>
+    </File>
+    <File Include="LogOff.aspx">
+      <publishTime>10/03/2017 15:08:36</publishTime>
+    </File>
+    <File Include="NewRoute.aspx">
+      <publishTime>04/24/2018 10:35:07</publishTime>
+    </File>
+    <File Include="OFEPRoute.aspx">
+      <publishTime>04/24/2018 10:35:07</publishTime>
+    </File>
+    <File Include="OrgConfigPFKey.aspx">
+      <publishTime>04/24/2018 10:35:07</publishTime>
+    </File>
+    <File Include="PageUnderConstruction.aspx">
+      <publishTime>04/24/2018 10:35:07</publishTime>
+    </File>
+    <File Include="RenameWS.aspx">
+      <publishTime>04/24/2018 10:35:07</publishTime>
+    </File>
+    <File Include="SP_AddUser.aspx">
+      <publishTime>04/24/2018 10:36:00</publishTime>
+    </File>
+    <File Include="SP_BatchOperations.aspx">
+      <publishTime>05/08/2018 10:54:53</publishTime>
+    </File>
+    <File Include="SP_ChangePWD.aspx">
+      <publishTime>04/24/2018 10:36:00</publishTime>
+    </File>
+    <File Include="SP_DelUser.aspx">
+      <publishTime>04/24/2018 10:35:59</publishTime>
+    </File>
+    <File Include="SP_HostInfoMgmt.aspx">
+      <publishTime>05/08/2018 11:16:26</publishTime>
+    </File>
+    <File Include="SP_ListAllTAs.aspx">
+      <publishTime>05/03/2018 10:32:06</publishTime>
+    </File>
+    <File Include="SP_ResetUserPWD.aspx">
+      <publishTime>04/24/2018 10:35:59</publishTime>
+    </File>
+    <File Include="SP_SearchAuditLog.aspx">
+      <publishTime>04/24/2018 10:35:08</publishTime>
+    </File>
+    <File Include="SP_SearchTA.aspx">
+      <publishTime>04/24/2018 10:35:08</publishTime>
+    </File>
+    <File Include="SP_Welcome.aspx">
+      <publishTime>04/24/2018 10:35:08</publishTime>
+    </File>
+    <File Include="UserWelcome.aspx">
+      <publishTime>04/24/2018 10:35:08</publishTime>
+    </File>
+    <File Include="UserWSSelect.aspx">
+      <publishTime>04/24/2018 16:25:02</publishTime>
+    </File>
+    <File Include="USR_ChangePWD.aspx">
+      <publishTime>04/24/2018 10:35:59</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/15/2018 15:27:11</publishTime>
+    </File>
+    <File Include="Welcome.aspx">
+      <publishTime>04/24/2018 10:35:08</publishTime>
+    </File>
+    <File Include="WSSelect.aspx">
+      <publishTime>05/03/2018 10:41:58</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

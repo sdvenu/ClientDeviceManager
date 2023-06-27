@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <view uin="th36c2z8s_v">
+    <property name="$name" value="System" />
+    <property name="$defaultDiagram" value="True" />
+    <property name="$metaclass" value="Package Diagram" />
+    <reference referencedUin="design:view:::0i3y4iyze_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="msil:e_class:lib:System.Data:System.Data.DataSet" />
+      <reference referencedUin="msil:e_class:lib:System.Data:System.Data.DataTable" />
+      <reference referencedUin="msil:e_class:lib:System.Data:System.Data.DataColumn" />
+      <reference referencedUin="msil:e_class:lib:System.Data:System.Data.DataRowAction" />
+      <reference referencedUin="msil:e_class:lib:System.Data:System.Data.DataRow" />
+    </reference>
+  </view>
+</nodeSet>

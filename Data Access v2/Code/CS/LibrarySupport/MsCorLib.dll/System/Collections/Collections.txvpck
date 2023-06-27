@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <view uin="rh4ekw0bf_v">
+    <property name="$name" value="Collections" />
+    <property name="$defaultDiagram" value="True" />
+    <property name="$metaclass" value="Package Diagram" />
+    <reference referencedUin="msil:e_class:lib:MsCorLib.dll:System.Collections.IEnumerable">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="msil:e_class:lib:MsCorLib.dll:System.Collections.Hashtable">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

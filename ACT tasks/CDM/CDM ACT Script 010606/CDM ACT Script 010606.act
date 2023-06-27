@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Project>
+<Project version="1.0.536.0" created="1/6/2006 2:08:16 PM" modified="1/1/2000">
+	<Test name="create ws1234" file="create ws1234.vbs" type="Dynamic" settings="testProperties-create ws1234.xml">
+		<UserGroup name="Default Users Group"/>
+		<ClientGroup name="Default Clients Group"/>
+		<Report name="report-create ws1234-Jan 06, 2006 16-34-14" file="report-create ws1234-Jan 06, 2006 16-34-14.xml"/>
+		<Report name="report-create ws1234-Jan 06, 2006 16-35-28" file="report-create ws1234-Jan 06, 2006 16-35-28.xml"/>
+		<Report name="report-create ws1234-Jan 06, 2006 16-39-00" file="report-create ws1234-Jan 06, 2006 16-39-00.xml"/>
+		<Report name="report-create ws1234-Jan 06, 2006 16-39-08" file="report-create ws1234-Jan 06, 2006 16-39-08.xml"/>
+		<Report name="report-create ws1234-Jan 06, 2006 16-39-21" file="report-create ws1234-Jan 06, 2006 16-39-21.xml"/>
+		<Report name="report-create ws1234-Jan 06, 2006 16-41-04" file="report-create ws1234-Jan 06, 2006 16-41-04.xml"/>
+		<Report name="report-create ws1234-Jan 06, 2006 16-44-49" file="report-create ws1234-Jan 06, 2006 16-44-49.xml"/>
+		<Report name="report-create ws1234-Jan 06, 2006 16-46-08" file="report-create ws1234-Jan 06, 2006 16-46-08.xml"/>
+		<Report name="report-create ws1234-Jan 06, 2006 16-47-37" file="report-create ws1234-Jan 06, 2006 16-47-37.xml"/>
+		<Report name="report-create ws1234-Jan 06, 2006 16-49-08" file="report-create ws1234-Jan 06, 2006 16-49-08.xml"/>
+		<Report name="report-create ws1234-Jan 06, 2006 16-49-28" file="report-create ws1234-Jan 06, 2006 16-49-28.xml"/>
+		<Report name="report-create ws1234-Jan 06, 2006 16-58-35" file="report-create ws1234-Jan 06, 2006 16-58-35.xml"/>
+		<Report name="report-create ws1234-Jan 06, 2006 17-00-26" file="report-create ws1234-Jan 06, 2006 17-00-26.xml"/>
+		<Report name="report-create ws1234-Jan 06, 2006 17-03-05" file="report-create ws1234-Jan 06, 2006 17-03-05.xml"/>
+		<Report name="report-create ws1234-Jan 06, 2006 17-42-57" file="report-create ws1234-Jan 06, 2006 17-42-57.xml"/>
+		<Report name="report-create ws1234-Jan 09, 2006 11-11-10" file="report-create ws1234-Jan 09, 2006 11-11-10.xml"/>
+		<Report name="report-create ws1234-Jan 09, 2006 11-11-19" file="report-create ws1234-Jan 09, 2006 11-11-19.xml"/>
+		<Report name="report-create ws1234-Jan 09, 2006 11-11-34" file="report-create ws1234-Jan 09, 2006 11-11-34.xml"/>
+		<Report name="report-create ws1234-Jan 09, 2006 11-23-21" file="report-create ws1234-Jan 09, 2006 11-23-21.xml"/>
+		<Report name="report-create ws1234-Jan 09, 2006 11-26-27" file="report-create ws1234-Jan 09, 2006 11-26-27.xml"/>
+		<Report name="report-create ws1234-Jan 09, 2006 11-28-10" file="report-create ws1234-Jan 09, 2006 11-28-10.xml"/>
+		<Report name="report-create ws1234-Jan 09, 2006 11-30-44" file="report-create ws1234-Jan 09, 2006 11-30-44.xml"/>
+		<Report name="report-create ws1234-Jan 09, 2006 11-33-02" file="report-create ws1234-Jan 09, 2006 11-33-02.xml"/>
+		<Report name="report-create ws1234-Jan 09, 2006 11-35-32" file="report-create ws1234-Jan 09, 2006 11-35-32.xml"/>
+		<Report name="report-create ws1234-Jan 09, 2006 11-37-02" file="report-create ws1234-Jan 09, 2006 11-37-02.xml"/>
+		<Report name="report-create ws1234-Jan 09, 2006 12-05-22" file="report-create ws1234-Jan 09, 2006 12-05-22.xml"/>
+		<Report name="report-create ws1234-Jan 09, 2006 12-20-16" file="report-create ws1234-Jan 09, 2006 12-20-16.xml"/>
+		<Report name="report-create ws1234-Jan 09, 2006 15-10-54" file="report-create ws1234-Jan 09, 2006 15-10-54.xml"/>
+		<Report name="report-create ws1234-Jan 09, 2006 15-13-51" file="report-create ws1234-Jan 09, 2006 15-13-51.xml"/>
+		<Report name="report-create ws1234-Jan 09, 2006 16-38-26" file="report-create ws1234-Jan 09, 2006 16-38-26.xml"/>
+		<PerfCounters file="perfCounters-create ws1234.xml"/>
+	</Test>
+	<Test name="Create SABRE WS1234" file="Create SABRE WS1234.vbs" type="Dynamic" settings="testProperties-Create SABRE WS1234.xml">
+		<UserGroup name="Default Users Group"/>
+		<ClientGroup name="Default Clients Group"/>
+		<Report name="report-Create SABRE WS1234-Jan 09, 2006 12-09-25" file="report-Create SABRE WS1234-Jan 09, 2006 12-09-25.xml"/>
+		<Report name="report-Create SABRE WS1234-Jan 09, 2006 12-20-30" file="report-Create SABRE WS1234-Jan 09, 2006 12-20-30.xml"/>
+		<Report name="report-Create SABRE WS1234-Jan 09, 2006 15-11-07" file="report-Create SABRE WS1234-Jan 09, 2006 15-11-07.xml"/>
+		<Report name="report-Create SABRE WS1234-Jan 09, 2006 15-14-01" file="report-Create SABRE WS1234-Jan 09, 2006 15-14-01.xml"/>
+		<PerfCounters file="perfCounters-Create SABRE WS1234.xml"/>
+	</Test>
+	<Test name="Create PTR route WS1234" file="Create PTR route WS1234.vbs" type="Dynamic" settings="testProperties-Create PTR route WS1234.xml">
+		<UserGroup name="Default Users Group"/>
+		<ClientGroup name="Default Clients Group"/>
+		<Report name="report-Create PTR route WS1234-Jan 09, 2006 12-20-41" file="report-Create PTR route WS1234-Jan 09, 2006 12-20-41.xml"/>
+		<Report name="report-Create PTR route WS1234-Jan 09, 2006 15-11-15" file="report-Create PTR route WS1234-Jan 09, 2006 15-11-15.xml"/>
+		<Report name="report-Create PTR route WS1234-Jan 09, 2006 15-12-26" file="report-Create PTR route WS1234-Jan 09, 2006 15-12-26.xml"/>
+		<Report name="report-Create PTR route WS1234-Jan 09, 2006 15-14-12" file="report-Create PTR route WS1234-Jan 09, 2006 15-14-12.xml"/>
+		<Report name="report-Create PTR route WS1234-Jan 09, 2006 15-40-41" file="report-Create PTR route WS1234-Jan 09, 2006 15-40-41.xml"/>
+		<PerfCounters file="perfCounters-Create PTR route WS1234.xml"/>
+	</Test>
+	<Test name="Create PTR printer WS1234" file="Create PTR printer WS1234.vbs" type="Dynamic" settings="testProperties-Create PTR printer WS1234.xml">
+		<UserGroup name="Default Users Group"/>
+		<ClientGroup name="Default Clients Group"/>
+		<Report name="report-Create PTR printer WS1234-Jan 09, 2006 12-20-51" file="report-Create PTR printer WS1234-Jan 09, 2006 12-20-51.xml"/>
+		<Report name="report-Create PTR printer WS1234-Jan 09, 2006 15-19-56" file="report-Create PTR printer WS1234-Jan 09, 2006 15-19-56.xml"/>
+		<Report name="report-Create PTR printer WS1234-Jan 09, 2006 16-33-12" file="report-Create PTR printer WS1234-Jan 09, 2006 16-33-12.xml"/>
+		<Report name="report-Create PTR printer WS1234-Jan 09, 2006 16-38-35" file="report-Create PTR printer WS1234-Jan 09, 2006 16-38-35.xml"/>
+		<Report name="report-Create PTR printer WS1234-Jan 09, 2006 16-39-45" file="report-Create PTR printer WS1234-Jan 09, 2006 16-39-45.xml"/>
+		<Report name="report-Create PTR printer WS1234-Jan 09, 2006 16-40-35" file="report-Create PTR printer WS1234-Jan 09, 2006 16-40-35.xml"/>
+		<PerfCounters file="perfCounters-Create PTR printer WS1234.xml"/>
+	</Test>
+	<Test name="Create ATB route WS1234" file="Create ATB route WS1234.vbs" type="Dynamic" settings="testProperties-Create ATB route WS1234.xml">
+		<UserGroup name="Default Users Group"/>
+		<ClientGroup name="Default Clients Group"/>
+		<Report name="report-Create ATB route WS1234-Jan 09, 2006 12-21-09" file="report-Create ATB route WS1234-Jan 09, 2006 12-21-09.xml"/>
+		<Report name="report-Create ATB route WS1234-Jan 09, 2006 15-20-04" file="report-Create ATB route WS1234-Jan 09, 2006 15-20-04.xml"/>
+		<PerfCounters file="perfCounters-Create ATB route WS1234.xml"/>
+	</Test>
+	<Test name="Create ATB printer WS1234" file="Create ATB printer WS1234.vbs" type="Dynamic" settings="testProperties-Create ATB printer WS1234.xml">
+		<UserGroup name="Default Users Group"/>
+		<ClientGroup name="Default Clients Group"/>
+		<Report name="report-Create ATB printer WS1234-Jan 09, 2006 12-21-21" file="report-Create ATB printer WS1234-Jan 09, 2006 12-21-21.xml"/>
+		<Report name="report-Create ATB printer WS1234-Jan 09, 2006 15-20-12" file="report-Create ATB printer WS1234-Jan 09, 2006 15-20-12.xml"/>
+		<Report name="report-Create ATB printer WS1234-Jan 09, 2006 16-39-08" file="report-Create ATB printer WS1234-Jan 09, 2006 16-39-08.xml"/>
+		<PerfCounters file="perfCounters-Create ATB printer WS1234.xml"/>
+	</Test>
+	<Test name="Create BAGTAG route WS1234" file="Create BAGTAG route WS1234.vbs" type="Dynamic" settings="testProperties-Create BAGTAG route WS1234.xml">
+		<UserGroup name="Default Users Group"/>
+		<ClientGroup name="Default Clients Group"/>
+		<Report name="report-Create BAGTAG route WS1234-Jan 09, 2006 12-21-31" file="report-Create BAGTAG route WS1234-Jan 09, 2006 12-21-31.xml"/>
+		<Report name="report-Create BAGTAG route WS1234-Jan 09, 2006 15-20-23" file="report-Create BAGTAG route WS1234-Jan 09, 2006 15-20-23.xml"/>
+		<PerfCounters file="perfCounters-Create BAGTAG route WS1234.xml"/>
+	</Test>
+	<Test name="Create BAGTAG printer WS1234" file="Create BAGTAG printer WS1234.vbs" type="Dynamic" settings="testProperties-Create BAGTAG printer WS1234.xml">
+		<UserGroup name="Default Users Group"/>
+		<ClientGroup name="Default Clients Group"/>
+		<Report name="report-Create BAGTAG printer WS1234-Jan 09, 2006 12-21-41" file="report-Create BAGTAG printer WS1234-Jan 09, 2006 12-21-41.xml"/>
+		<Report name="report-Create BAGTAG printer WS1234-Jan 09, 2006 15-20-30" file="report-Create BAGTAG printer WS1234-Jan 09, 2006 15-20-30.xml"/>
+		<PerfCounters file="perfCounters-Create BAGTAG printer WS1234.xml"/>
+	</Test>
+	<Test name="Disable and delete WS1234" file="Disable and delete WS1234.vbs" type="Dynamic" settings="testProperties-Disable and delete WS1234.xml">
+		<UserGroup name="Default Users Group"/>
+		<ClientGroup name="Default Clients Group"/>
+		<Report name="report-Disable and delete WS1234-Jan 09, 2006 12-21-59" file="report-Disable and delete WS1234-Jan 09, 2006 12-21-59.xml"/>
+		<Report name="report-Disable and delete WS1234-Jan 09, 2006 15-13-43" file="report-Disable and delete WS1234-Jan 09, 2006 15-13-43.xml"/>
+		<Report name="report-Disable and delete WS1234-Jan 09, 2006 16-37-52" file="report-Disable and delete WS1234-Jan 09, 2006 16-37-52.xml"/>
+		<PerfCounters file="perfCounters-Disable and delete WS1234.xml"/>
+	</Test>
+	<Test name="Copy of Create SABRE WS1234" file="Copy of Create SABRE WS1234.vbs" type="Dynamic" settings="testProperties-Copy of Create SABRE WS1234.xml">
+		<UserGroup name="Default Users Group"/>
+		<ClientGroup name="Default Clients Group"/>
+		<PerfCounters file="perfCounters-Copy of Create SABRE WS1234.xml"/>
+	</Test>
+	<Test name="Copy of Create PTR route WS1234" file="Copy of Create PTR route WS1234.vbs" type="Dynamic" settings="testProperties-Copy of Create PTR route WS1234.xml">
+		<UserGroup name="Default Users Group"/>
+		<ClientGroup name="Default Clients Group"/>
+		<PerfCounters file="perfCounters-Copy of Create PTR route WS1234.xml"/>
+	</Test>
+	<Test name="Copy of Create PTR printer WS1234" file="Copy of Create PTR printer WS1234.vbs" type="Dynamic" settings="testProperties-Copy of Create PTR printer WS1234.xml">
+		<UserGroup name="Default Users Group"/>
+		<ClientGroup name="Default Clients Group"/>
+		<Report name="report-Copy of Create PTR printer WS1234-Jan 09, 2006 16-42-58" file="report-Copy of Create PTR printer WS1234-Jan 09, 2006 16-42-58.xml"/>
+		<PerfCounters file="perfCounters-Copy of Create PTR printer WS1234.xml"/>
+	</Test>
+	<Test name="Copy of Create ATB route WS1234" file="Copy of Create ATB route WS1234.vbs" type="Dynamic" settings="testProperties-Copy of Create ATB route WS1234.xml">
+		<UserGroup name="Default Users Group"/>
+		<ClientGroup name="Default Clients Group"/>
+		<PerfCounters file="perfCounters-Copy of Create ATB route WS1234.xml"/>
+	</Test>
+	<Test name="Copy of Create ATB printer WS1234" file="Copy of Create ATB printer WS1234.vbs" type="Dynamic" settings="testProperties-Copy of Create ATB printer WS1234.xml">
+		<UserGroup name="Default Users Group"/>
+		<ClientGroup name="Default Clients Group"/>
+		<PerfCounters file="perfCounters-Copy of Create ATB printer WS1234.xml"/>
+	</Test>
+	<Test name="Copy of Create BAGTAG route WS1234" file="Copy of Create BAGTAG route WS1234.vbs" type="Dynamic" settings="testProperties-Copy of Create BAGTAG route WS1234.xml">
+		<UserGroup name="Default Users Group"/>
+		<ClientGroup name="Default Clients Group"/>
+		<PerfCounters file="perfCounters-Copy of Create BAGTAG route WS1234.xml"/>
+	</Test>
+	<Test name="Copy of Create BAGTAG printer WS1234" file="Copy of Create BAGTAG printer WS1234.vbs" type="Dynamic" settings="testProperties-Copy of Create BAGTAG printer WS1234.xml">
+		<UserGroup name="Default Users Group"/>
+		<ClientGroup name="Default Clients Group"/>
+		<PerfCounters file="perfCounters-Copy of Create BAGTAG printer WS1234.xml"/>
+	</Test>
+	<Test name="Copy of Disable and delete WS1234" file="Copy of Disable and delete WS1234.vbs" type="Dynamic" settings="testProperties-Copy of Disable and delete WS1234.xml">
+		<UserGroup name="Default Users Group"/>
+		<ClientGroup name="Default Clients Group"/>
+		<PerfCounters file="perfCounters-Copy of Disable and delete WS1234.xml"/>
+	</Test>
+	<UserGroupDef name="Default Users Group" file="userGroup-Default Users Group.xml"/>
+	<ClientGroupDef name="Default Clients Group" file="clientGroup-Default Clients Group.xml"/>
+	<DefaultValues file="properties.xml"/>
+</Project>

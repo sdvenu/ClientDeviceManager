@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <view uin="t02tnppf6btfvlk_v">
+    <property name="$name" value="ApplicationBlocks" />
+    <property name="$defaultDiagram" value="True" />
+    <property name="$metaclass" value="Package Diagram" />
+    <reference referencedUin="design:view:::ad274eucl3fdncm_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="0,0,179,163" />
+      <reference referencedUin="csharp:e_class:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache" />
+      <reference referencedUin="csharp:e_class:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper" />
+      <reference referencedUin="csharp:e_class:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.DebugSQLHelper" />
+      <reference referencedUin="csharp:e_class:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.ErrorSQLHelper" />
+      <reference referencedUin="csharp:e_class:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.AuditSQLHelper" />
+    </reference>
+  </view>
+</nodeSet>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <view uin="ad274eucl3fdncm_v">
+    <property name="$name" value="Data" />
+    <property name="$defaultDiagram" value="True" />
+    <property name="$metaclass" value="Package Diagram" />
+    <reference referencedUin="csharp:e_class:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="210,610,393,232" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.SqlHelperParameterCache()" />
+      <reference referencedUin="csharp:e_field:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.paramCache" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.DiscoverSpParameterSet(System.Data.SqlClient.SqlConnection,System.String,System.Boolean)" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.CloneParameters(System.Data.SqlClient.SqlParameter[])" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.CacheParameterSet(System.String,System.String,System.Data.SqlClient.SqlParameter[])" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetCachedParameterSet(System.String,System.String)" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(System.String,System.String)" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(System.String,System.String,System.Boolean)" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(System.Data.SqlClient.SqlConnection,System.String)" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSet(System.Data.SqlClient.SqlConnection,System.String,System.Boolean)" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelperParameterCache.GetSpParameterSetInternal(System.Data.SqlClient.SqlConnection,System.String,System.Boolean)" />
+    </reference>
+    <reference referencedUin="csharp:e_class:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="168,-9,408,381" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.SqlHelper()" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.AttachParameters(System.Data.SqlClient.SqlCommand,System.Data.SqlClient.SqlParameter[])" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.AssignParameterValues(System.Data.SqlClient.SqlParameter[],System.Data.DataRow)">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.AssignParameterValues(System.Data.SqlClient.SqlParameter[],System.Object[])" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.PrepareCommand(System.Data.SqlClient.SqlCommand,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction,System.Data.CommandType,System.String,System.Data.SqlClient.SqlParameter[],out@System.Boolean)" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(System.String,System.Data.CommandType,System.String)">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(System.String,System.Data.CommandType,System.String,System.Data.SqlClient.SqlParameter[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(System.String,System.String,System.Object[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(System.Data.SqlClient.SqlConnection,System.Data.CommandType,System.String)">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(System.Data.SqlClient.SqlConnection,System.Data.CommandType,System.String,System.Data.SqlClient.SqlParameter[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(System.Data.SqlClient.SqlConnection,System.String,System.Object[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(System.Data.SqlClient.SqlTransaction,System.Data.CommandType,System.String)">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(System.Data.SqlClient.SqlTransaction,System.Data.CommandType,System.String,System.Data.SqlClient.SqlParameter[])" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(System.Data.SqlClient.SqlTransaction,System.String,System.Object[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(System.String,System.Data.CommandType,System.String)">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(System.String,System.Data.CommandType,System.String,System.Data.SqlClient.SqlParameter[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(System.String,System.String,System.Object[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(System.Data.SqlClient.SqlConnection,System.Data.CommandType,System.String)">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(System.Data.SqlClient.SqlConnection,System.Data.CommandType,System.String,System.Data.SqlClient.SqlParameter[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(System.Data.SqlClient.SqlConnection,System.String,System.Object[])" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(System.Data.SqlClient.SqlTransaction,System.Data.CommandType,System.String)">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction,System.Data.CommandType,System.String,System.Data.SqlClient.SqlParameter[],Microsoft.ApplicationBlocks.Data.SqlHelper.SqlConnectionOwnership)" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(System.String,System.Data.CommandType,System.String)">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(System.String,System.Data.CommandType,System.String,System.Data.SqlClient.SqlParameter[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(System.String,System.String,System.Object[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(System.Data.SqlClient.SqlConnection,System.Data.CommandType,System.String)">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(System.Data.SqlClient.SqlConnection,System.Data.CommandType,System.String,System.Data.SqlClient.SqlParameter[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(System.Data.SqlClient.SqlConnection,System.String,System.Object[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(System.Data.SqlClient.SqlTransaction,System.Data.CommandType,System.String)" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(System.Data.SqlClient.SqlTransaction,System.Data.CommandType,System.String,System.Data.SqlClient.SqlParameter[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(System.Data.SqlClient.SqlTransaction,System.String,System.Object[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteScalar(System.String,System.Data.CommandType,System.String)">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteScalar(System.String,System.Data.CommandType,System.String,System.Data.SqlClient.SqlParameter[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteScalar(System.String,System.String,System.Object[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteScalar(System.Data.SqlClient.SqlConnection,System.Data.CommandType,System.String)">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteScalar(System.Data.SqlClient.SqlConnection,System.Data.CommandType,System.String,System.Data.SqlClient.SqlParameter[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteScalar(System.Data.SqlClient.SqlConnection,System.String,System.Object[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteScalar(System.Data.SqlClient.SqlTransaction,System.Data.CommandType,System.String)">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteScalar(System.Data.SqlClient.SqlTransaction,System.Data.CommandType,System.String,System.Data.SqlClient.SqlParameter[])" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteScalar(System.Data.SqlClient.SqlTransaction,System.String,System.Object[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteXmlReader(System.Data.SqlClient.SqlConnection,System.Data.CommandType,System.String)">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteXmlReader(System.Data.SqlClient.SqlConnection,System.Data.CommandType,System.String,System.Data.SqlClient.SqlParameter[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteXmlReader(System.Data.SqlClient.SqlConnection,System.String,System.Object[])" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteXmlReader(System.Data.SqlClient.SqlTransaction,System.Data.CommandType,System.String)">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteXmlReader(System.Data.SqlClient.SqlTransaction,System.Data.CommandType,System.String,System.Data.SqlClient.SqlParameter[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteXmlReader(System.Data.SqlClient.SqlTransaction,System.String,System.Object[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(System.String,System.Data.CommandType,System.String,System.Data.DataSet,System.String[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(System.String,System.Data.CommandType,System.String,System.Data.DataSet,System.String[],System.Data.SqlClient.SqlParameter[])" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(System.String,System.String,System.Data.DataSet,System.String[],System.Object[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(System.Data.SqlClient.SqlConnection,System.Data.CommandType,System.String,System.Data.DataSet,System.String[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(System.Data.SqlClient.SqlConnection,System.Data.CommandType,System.String,System.Data.DataSet,System.String[],System.Data.SqlClient.SqlParameter[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(System.Data.SqlClient.SqlConnection,System.String,System.Data.DataSet,System.String[],System.Object[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(System.Data.SqlClient.SqlTransaction,System.Data.CommandType,System.String,System.Data.DataSet,System.String[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(System.Data.SqlClient.SqlTransaction,System.Data.CommandType,System.String,System.Data.DataSet,System.String[],System.Data.SqlClient.SqlParameter[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(System.Data.SqlClient.SqlTransaction,System.String,System.Data.DataSet,System.String[],System.Object[])">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction,System.Data.CommandType,System.String,System.Data.DataSet,System.String[],System.Data.SqlClient.SqlParameter[])" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.UpdateDataset(System.Data.SqlClient.SqlCommand,System.Data.SqlClient.SqlCommand,System.Data.SqlClient.SqlCommand,System.Data.DataSet,System.String)" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.CreateCommand(System.Data.SqlClient.SqlConnection,System.String,System.String[])" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQueryTypedParams(System.String,System.String,System.Data.DataRow)">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQueryTypedParams(System.Data.SqlClient.SqlConnection,System.String,System.Data.DataRow)" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQueryTypedParams(System.Data.SqlClient.SqlTransaction,System.String,System.Data.DataRow)">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDatasetTypedParams(System.String,System.String,System.Data.DataRow)" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDatasetTypedParams(System.Data.SqlClient.SqlConnection,System.String,System.Data.DataRow)">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDatasetTypedParams(System.Data.SqlClient.SqlTransaction,System.String,System.Data.DataRow)">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReaderTypedParams(System.String,System.String,System.Data.DataRow)">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReaderTypedParams(System.Data.SqlClient.SqlConnection,System.String,System.Data.DataRow)" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReaderTypedParams(System.Data.SqlClient.SqlTransaction,System.String,System.Data.DataRow)">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteScalarTypedParams(System.String,System.String,System.Data.DataRow)">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteScalarTypedParams(System.Data.SqlClient.SqlConnection,System.String,System.Data.DataRow)" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteScalarTypedParams(System.Data.SqlClient.SqlTransaction,System.String,System.Data.DataRow)">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteXmlReaderTypedParams(System.Data.SqlClient.SqlConnection,System.String,System.Data.DataRow)" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteXmlReaderTypedParams(System.Data.SqlClient.SqlTransaction,System.String,System.Data.DataRow)">
+        <property name="$hidden" value="True" />
+      </reference>
+      <reference referencedUin="csharp:e_class:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.SqlConnectionOwnership" />
+      <reference referencedUin="design:link:::yl70csyhsb255dt_l">
+        <property name="sourceAnchor" value="174,372" />
+        <property name="targetAnchor" value="174,440" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="design:link:::0a7aju45k_l">
+        <property name="sourceAnchor" value="361,372" />
+        <property name="targetAnchor" value="361,440" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="design:link:::6z7qs9r6r_l">
+        <property name="sourceAnchor" value="561,372" />
+        <property name="targetAnchor" value="561,440" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(System.Data.SqlClient.SqlTransaction,System.String,System.Object[])" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(System.Data.SqlClient.SqlTransaction,System.Data.CommandType,System.String,System.Data.SqlClient.SqlParameter[])" />
+    </reference>
+    <reference referencedUin="csharp:e_class:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.DebugSQLHelper">
+      <property name="$shortcutReference" value="true" />
+      <property name="foreground_color" value="0,0,0" />
+      <property name="background_color" value="255,255,255" />
+      <property name="bounds" value="70,440,178,127" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.DebugSQLHelper.getDebugSQL()">
+        <property name="bounds" value="67,8,0,0" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.DebugSQLHelper.addDebugSQL()">
+        <property name="bounds" value="81,11,0,0" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.DebugSQLHelper.batchExecuteSQL()">
+        <property name="bounds" value="58,13,0,0" />
+      </reference>
+      <reference referencedUin="csharp:e_field:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.DebugSQLHelper.SQLMap">
+        <property name="bounds" value="145,5,0,0" />
+      </reference>
+    </reference>
+    <reference referencedUin="csharp:e_class:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.ErrorSQLHelper">
+      <property name="$shortcutReference" value="true" />
+      <property name="foreground_color" value="0,0,0" />
+      <property name="background_color" value="255,255,255" />
+      <property name="bounds" value="270,440,178,127" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.ErrorSQLHelper.addErrorSQL()">
+        <property name="bounds" value="39,11,0,0" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.ErrorSQLHelper.batchExecuteSQL()">
+        <property name="bounds" value="64,12,0,0" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.ErrorSQLHelper.getErrorSQL()">
+        <property name="bounds" value="98,8,0,0" />
+      </reference>
+      <reference referencedUin="csharp:e_field:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.ErrorSQLHelper.SQLMap">
+        <property name="bounds" value="113,13,0,0" />
+      </reference>
+    </reference>
+    <reference referencedUin="csharp:e_class:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.AuditSQLHelper">
+      <property name="$shortcutReference" value="true" />
+      <property name="foreground_color" value="0,0,0" />
+      <property name="background_color" value="255,255,255" />
+      <property name="bounds" value="470,440,178,127" />
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.AuditSQLHelper.addAuditSQL()">
+        <property name="bounds" value="53,10,0,0" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.AuditSQLHelper.batchExecuteSQL()">
+        <property name="bounds" value="99,17,0,0" />
+      </reference>
+      <reference referencedUin="csharp:e_method:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.AuditSQLHelper.getAuditSQL()">
+        <property name="bounds" value="88,4,0,0" />
+      </reference>
+      <reference referencedUin="csharp:e_field:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.AuditSQLHelper.SQLMap">
+        <property name="bounds" value="150,14,0,0" />
+      </reference>
+    </reference>
+  </view>
+  <link uin="yl70csyhsb255dt_l">
+    <property name="$name" value="Dependency Link1" />
+    <property name="$metaclass" value="Dependency Link" />
+    <participant referencedUin="csharp:e_class:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper" role="Client" />
+  </link>
+  <link uin="0a7aju45k_l">
+    <property name="$name" value="Dependency Link2" />
+    <property name="$metaclass" value="Dependency Link" />
+    <participant referencedUin="csharp:e_class:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper" role="Client" />
+  </link>
+  <link uin="6z7qs9r6r_l">
+    <property name="$name" value="Dependency Link3" />
+    <property name="$metaclass" value="Dependency Link" />
+    <participant referencedUin="csharp:e_class:src:Microsoft.ApplicationBlocks.Data:Microsoft.ApplicationBlocks.Data.SqlHelper" role="Client" />
+  </link>
+</nodeSet>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <view uin="hg18eo1qh_v">
+    <property name="$name" value="QuickStartSamples_CS" />
+    <property name="$defaultDiagram" value="True" />
+    <property name="$metaclass" value="Package Diagram" />
+    <reference referencedUin="csharp:e_class:src:DataAccessQuickStartSamples:QuickStartSamples_CS.ProductDS">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="csharp:e_class:src:DataAccessQuickStartSamples:QuickStartSamples_CS.ProductDS.ProductsDataTable" />
+      <reference referencedUin="csharp:e_field:src:DataAccessQuickStartSamples:QuickStartSamples_CS.ProductDS.tableProducts" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.ProductDS.ProductDS()" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.ProductDS.ProductDS(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+      <reference referencedUin="csharp:e_property:src:DataAccessQuickStartSamples:QuickStartSamples_CS.ProductDS.Products" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.ProductDS.Clone()" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.ProductDS.ShouldSerializeTables()" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.ProductDS.ShouldSerializeRelations()" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.ProductDS.ReadXmlSerializable(System.Xml.XmlReader)" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.ProductDS.GetSchemaSerializable()" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.ProductDS.InitVars()" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.ProductDS.InitClass()" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.ProductDS.ShouldSerializeProducts()" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.ProductDS.SchemaChanged(System.Object,System.ComponentModel.CollectionChangeEventArgs)" />
+      <reference referencedUin="csharp:e_class:src:DataAccessQuickStartSamples:QuickStartSamples_CS.ProductDS.ProductsRowChangeEvent" />
+      <reference referencedUin="csharp:e_class:src:DataAccessQuickStartSamples:QuickStartSamples_CS.ProductDS.ProductsRow" />
+      <reference referencedUin="csharp:e_class:src:DataAccessQuickStartSamples:QuickStartSamples_CS.ProductDS.ProductsRowChangeEventHandler" />
+    </reference>
+    <reference referencedUin="csharp:e_class:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="csharp:e_field:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.Label2" />
+      <reference referencedUin="csharp:e_field:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.txtConnectionString" />
+      <reference referencedUin="csharp:e_field:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.cmdSample5" />
+      <reference referencedUin="csharp:e_field:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.cmdSample4" />
+      <reference referencedUin="csharp:e_field:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.cmdSample3" />
+      <reference referencedUin="csharp:e_field:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.cmdSample2" />
+      <reference referencedUin="csharp:e_field:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.cmdClearResults" />
+      <reference referencedUin="csharp:e_field:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.Label1" />
+      <reference referencedUin="csharp:e_field:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.txtResults" />
+      <reference referencedUin="csharp:e_field:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.cmdSample1" />
+      <reference referencedUin="csharp:e_field:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.toolTip" />
+      <reference referencedUin="csharp:e_field:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.cmdSample6" />
+      <reference referencedUin="csharp:e_field:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.cmdSample7" />
+      <reference referencedUin="csharp:e_field:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.cmdSample8" />
+      <reference referencedUin="csharp:e_field:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.cmdSample9" />
+      <reference referencedUin="csharp:e_field:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.cmdSample10" />
+      <reference referencedUin="csharp:e_field:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.components" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.Form1()" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.Dispose(System.Boolean)" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.InitializeComponent()" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.Main()" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.GetConnection(System.String)" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.cmdSample1_Click(System.Object,System.EventArgs)" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.cmdSample2_Click(System.Object,System.EventArgs)" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.cmdSample3_Click(System.Object,System.EventArgs)" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.cmdSample4_Click(System.Object,System.EventArgs)" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.cmdSample5_Click(System.Object,System.EventArgs)" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.cmdSample6_Click(System.Object,System.EventArgs)" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.Form1_Load(System.Object,System.EventArgs)" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.cmdClearResults_Click(System.Object,System.EventArgs)" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.cmdSample7_Click(System.Object,System.EventArgs)" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.cmdSample8_Click(System.Object,System.EventArgs)" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.cmdSample9_Click(System.Object,System.EventArgs)" />
+      <reference referencedUin="csharp:e_method:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1.cmdSample10_Click(System.Object,System.EventArgs)" />
+    </reference>
+  </view>
+</nodeSet>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ProjectSupport>
+  <SupportedProjects>
+    <ProjectName>Microsoft.ApplicationBlocks.Data</ProjectName>
+    <ProjectName>DataAccessQuickStartSamples</ProjectName>
+  </SupportedProjects>
+</ProjectSupport>

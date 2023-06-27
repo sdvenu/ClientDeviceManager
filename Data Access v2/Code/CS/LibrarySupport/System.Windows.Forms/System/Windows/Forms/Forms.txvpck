@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <view uin="zr285g73o_v">
+    <property name="$name" value="Forms" />
+    <property name="$defaultDiagram" value="True" />
+    <property name="$metaclass" value="Package Diagram" />
+    <reference referencedUin="msil:e_class:lib:System.Windows.Forms:System.Windows.Forms.Form">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="msil:e_class:lib:System.Windows.Forms:System.Windows.Forms.Label">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="msil:e_class:lib:System.Windows.Forms:System.Windows.Forms.TextBox">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="msil:e_class:lib:System.Windows.Forms:System.Windows.Forms.Button">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="msil:e_class:lib:System.Windows.Forms:System.Windows.Forms.RichTextBox">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="msil:e_class:lib:System.Windows.Forms:System.Windows.Forms.ToolTip">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

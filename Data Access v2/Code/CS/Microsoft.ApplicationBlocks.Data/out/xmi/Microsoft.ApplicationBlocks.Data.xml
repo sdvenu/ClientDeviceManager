@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8' ?>
+<XMI xmi.version = '1.2' xmlns:UML = '//org.omg/UML/1.3'>
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>
+    	Together Edition for Visual Studio .NET
+   </XMI.exporter>
+   <XMI.exporterVersion>
+    	1.0
+   </XMI.exporterVersion>
+  </XMI.documentation>
+  <XMI.metamodel xmi.name = 'UML' xmi.version = '1.3'/>
+ </XMI.header>
+ <XMI.content>
+  <UML:Model xmi.id = 'S.1' name = 'Project' visibility = 'public'>
+   <UML:Namespace.ownedElement>
+    <UML:Package xmi.id = 'S.5'
+          name = 'Microsoft' visibility = 'public' isSpecification = 'false'
+          isAbstract = 'false'>
+     <UML:ModelElement.namespace>
+      <Foundation.Core.Namespace xmi.idref = 'G.2'/>
+     </UML:ModelElement.namespace>
+     <UML:Namespace.ownedElement>
+      <UML:Package xmi.id = 'S.8'
+            name = 'ApplicationBlocks' visibility = 'public' isSpecification = 'false'
+            isAbstract = 'false'>
+       <UML:ModelElement.namespace>
+        <Foundation.Core.Namespace xmi.idref = 'G.4'/>
+       </UML:ModelElement.namespace>
+       <UML:Namespace.ownedElement>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+     </UML:Namespace.ownedElement>
+    </UML:Package>
+   </UML:Namespace.ownedElement>
+  </UML:Model>
+  <UML:Diagram xmi.id = 'S.17'
+        name = 'default' toolName = 'Rational Rose 98' diagramType = 'PackageDiagram' style = ''>
+   <UML:Diagram.owner>
+    <Foundation.Core.ModelElement xmi.idref = 'S.1'/>
+   </UML:Diagram.owner>
+   <UML:Diagram.element>
+    <UML:DiagramElement xmi.id = 'XX.0'
+          geometry = '0,0,0,0,' shortcut = 'false' style = 'FillColor.Blue= 255,FillColor.Green= 255,FillColor.Red= 255,FillColor.Transparent=1,Font.Blue= 0,Font.Green= 0,Font.Red= 0,Font.FaceName=Arial,Font.Size= 10,Font.Bold=0,Font.Italic=0,Font.Strikethrough=0,Font.Underline=0,LineColor.Blue= 0,LineColor.Green= 0,LineColor.Red= 0,'>
+     <UML:PresentationElement.subject>
+      <Foundation.Core.ModelElement xmi.idref = 'S.5'/>    <!--Package Microsoft-->
+     </UML:PresentationElement.subject>
+    </UML:DiagramElement>
+    <UML:DiagramElement xmi.id = 'XX.1'
+          geometry = '0,0,0,0,' shortcut = 'false' style = 'FillColor.Blue= 255,FillColor.Green= 255,FillColor.Red= 255,FillColor.Transparent=1,Font.Blue= 0,Font.Green= 0,Font.Red= 0,Font.FaceName=Arial,Font.Size= 10,Font.Bold=0,Font.Italic=0,Font.Strikethrough=0,Font.Underline=0,LineColor.Blue= 0,LineColor.Green= 0,LineColor.Red= 0,'>
+     <UML:PresentationElement.subject>
+      <Foundation.Core.ModelElement xmi.idref = 'S.8'/>    <!--Package ApplicationBlocks-->
+     </UML:PresentationElement.subject>
+    </UML:DiagramElement>
+   </UML:Diagram.element>
+  </UML:Diagram>
+  <UML:Diagram xmi.id = 'S.20'
+        name = 'Microsoft' toolName = 'Rational Rose 98' diagramType = 'PackageDiagram' style = ''>
+   <UML:Diagram.owner>
+    <Foundation.Core.ModelElement xmi.idref = 'S.5'/>
+   </UML:Diagram.owner>
+   <UML:Diagram.element>
+    <UML:DiagramElement xmi.id = 'XX.2'
+          geometry = '0,0,0,0,' shortcut = 'false' style = 'FillColor.Blue= 255,FillColor.Green= 255,FillColor.Red= 255,FillColor.Transparent=1,Font.Blue= 0,Font.Green= 0,Font.Red= 0,Font.FaceName=Arial,Font.Size= 10,Font.Bold=0,Font.Italic=0,Font.Strikethrough=0,Font.Underline=0,LineColor.Blue= 0,LineColor.Green= 0,LineColor.Red= 0,'>
+     <UML:PresentationElement.subject>
+      <Foundation.Core.ModelElement xmi.idref = 'S.8'/>    <!--Package ApplicationBlocks-->
+     </UML:PresentationElement.subject>
+    </UML:DiagramElement>
+   </UML:Diagram.element>
+  </UML:Diagram>
+  <UML:Diagram xmi.id = 'S.23'
+        name = 'ApplicationBlocks' toolName = 'Rational Rose 98' diagramType = 'PackageDiagram' style = ''>
+   <UML:Diagram.owner>
+    <Foundation.Core.ModelElement xmi.idref = 'S.8'/>
+   </UML:Diagram.owner>
+   <UML:Diagram.element>
+   </UML:Diagram.element>
+  </UML:Diagram>
+ </XMI.content>
+</XMI>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <view uin="2b2euxv66e9bdqm_v">
+    <property name="$name" value="Microsoft" />
+    <property name="$defaultDiagram" value="True" />
+    <property name="$metaclass" value="Package Diagram" />
+    <reference referencedUin="design:view:::t02tnppf6btfvlk_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="0,0,111,103" />
+      <reference referencedUin="design:view:::ad274eucl3fdncm_v" />
+    </reference>
+  </view>
+</nodeSet>

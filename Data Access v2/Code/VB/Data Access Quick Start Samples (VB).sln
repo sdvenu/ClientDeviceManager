@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DataAccessQuickStartSamples", "DataAccessQuickStartSamples\DataAccessQuickStartSamples.vbproj", "{9AF39DD6-16AA-4F43-926A-8B71716B936A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Microsoft.ApplicationBlocks.Data", "Microsoft.ApplicationBlocks.Data\Microsoft.ApplicationBlocks.Data.vbproj", "{0ED3D747-FA56-4481-8A26-4A0E39BA7D03}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{9AF39DD6-16AA-4F43-926A-8B71716B936A}.Debug.ActiveCfg = Debug|.NET
+		{9AF39DD6-16AA-4F43-926A-8B71716B936A}.Debug.Build.0 = Debug|.NET
+		{9AF39DD6-16AA-4F43-926A-8B71716B936A}.Release.ActiveCfg = Release|.NET
+		{9AF39DD6-16AA-4F43-926A-8B71716B936A}.Release.Build.0 = Release|.NET
+		{0ED3D747-FA56-4481-8A26-4A0E39BA7D03}.Debug.ActiveCfg = Debug|.NET
+		{0ED3D747-FA56-4481-8A26-4A0E39BA7D03}.Debug.Build.0 = Debug|.NET
+		{0ED3D747-FA56-4481-8A26-4A0E39BA7D03}.Release.ActiveCfg = Release|.NET
+		{0ED3D747-FA56-4481-8A26-4A0E39BA7D03}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

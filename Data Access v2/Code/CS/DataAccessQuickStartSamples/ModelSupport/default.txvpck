@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <view uin="qh1p640ki_v">
+    <property name="$name" value="default" />
+    <property name="$defaultDiagram" value="True" />
+    <property name="$metaclass" value="Package Diagram" />
+    <reference referencedUin="design:view:::hg18eo1qh_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="csharp:e_class:src:DataAccessQuickStartSamples:QuickStartSamples_CS.ProductDS" />
+      <reference referencedUin="csharp:e_class:src:DataAccessQuickStartSamples:QuickStartSamples_CS.Form1" />
+    </reference>
+  </view>
+</nodeSet>

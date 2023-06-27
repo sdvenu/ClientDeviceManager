@@ -1,0 +1,14 @@
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[PrintDriverList]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table [dbo].[PrintDriverList]
+GO
+
+CREATE TABLE [dbo].[PrintDriverList] (
+	[DRIVER] [varchar] (32) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[CONFIG_TABLE] [varchar] (32) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[CONFIG_PAGE] [varchar] (32) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[DISPLAY_PAGE] [varchar] (32) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL 
+) ON [PRIMARY]
+GO
+
+
+

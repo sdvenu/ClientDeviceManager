@@ -1,0 +1,4 @@
+C:\Users\svenugopal32\Downloads\DXC\Code\CDM\american\American\Host Platform\ClientDeviceMgr\1.1.3.0\bin\SystemFramework.dll
+C:\Users\svenugopal32\Downloads\DXC\Code\CDM\american\American\Host Platform\ClientDeviceMgr\1.1.3.0\bin\SystemFramework.pdb
+C:\Users\svenugopal32\Downloads\DXC\Code\CDM\american\American\Host Platform\ClientDeviceMgr\1.1.3.0\SystemFramework\obj\Debug\SystemFramework.dll
+C:\Users\svenugopal32\Downloads\DXC\Code\CDM\american\American\Host Platform\ClientDeviceMgr\1.1.3.0\SystemFramework\obj\Debug\SystemFramework.pdb
